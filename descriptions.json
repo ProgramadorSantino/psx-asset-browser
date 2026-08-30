@@ -1,0 +1,2354 @@
+{
+"allen_key_mx": {
+"use": "Drop on workbenches, in open toolboxes or on garage floors as small mechanical clutter.",
+"what": "Steel Allen key, hex bar bent at a right angle, hand length."
+},
+"ammo_box": {
+"use": "Drop on shelves, weapon crates and desks in armouries, gun shops and looted safe rooms.",
+"what": "Small card ammunition box, palm-sized, printed label."
+},
+"ammo_box_mp": {
+"use": "Scatter on gun shop shelves, in weapon lockers and looting spots, or stack in supply caches.",
+"what": "Small cardboard ammunition box, palm-sized, printed label."
+},
+"ammo_pistol_loose_1pc_mp": {
+"use": "Scatter on floors around firefights and on weapon benches beside ammo boxes.",
+"what": "Single loose pistol round, brass case, about 3 cm long."
+},
+"ammo_pistol_loose_2pcs_mp": {
+"use": "Drop on tables, shelves and floors as an ammo pickup or spent-round dressing near weapons.",
+"what": "Two loose brass pistol cartridges, about 3 cm, unfired."
+},
+"ammo_pistol_loose_3pcs_mp": {
+"use": "Scatter on tables, shelves and floors near weapons, or use as a small ammo pickup.",
+"what": "Three loose brass pistol rounds standing in a small group."
+},
+"ammo_pistol_loose_4pcs_mp": {
+"use": "Scatter beside ammo boxes and pistols on tables, shelves and floors to read as looted supplies.",
+"what": "Four loose brass pistol cartridges in a small cluster."
+},
+"ammo_pistol_loose_5pcs_mp": {
+"use": "Drop beside a weapon or a spilled box on tables, shelves and floors as pickup dressing.",
+"what": "Five loose brass pistol rounds lying in a small cluster."
+},
+"ammo_pistol_loose_mp_casing": {
+"use": "Litter under firing positions, at ranges and around bodies as spent brass.",
+"what": "Spent pistol casing, brass, 2 cm long and hollow."
+},
+"ancient_artifact_mx": {
+"use": "Museum plinths, tomb sets and occult shrines; works as a quest item or set-piece focus.",
+"what": "Carved stone pyramid, 0.5 m tall, hieroglyph relief on every face."
+},
+"arc_wall": {
+"use": "Use as an interior partition between rooms, or repeat down a hall for an arcade run.",
+"what": "Plastered wall section with a full arched opening, room height, skirted base."
+},
+"arc_wall_plain": {
+"use": "Chain along cellar and corridor runs as an open archway between rooms.",
+"what": "Stone wall section, 3 m square, with a full arched opening through it."
+},
+"armchair": {
+"use": "Living rooms, waiting areas and squat interiors; angle one toward a TV or a window.",
+"what": "Upholstered fabric armchair on wooden legs, worn, several colour variants."
+},
+"ashtray": {
+"use": "Dress desks, bar tops and interrogation tables in smoky interiors.",
+"what": "Round ashtray holding stubbed cigarettes, 14 cm across."
+},
+"asphalt_hr": {
+"use": "Tile across roads, yards and car parks; drop the holed variant for damage and puddles.",
+"what": "Flat 4 m asphalt road tile, cracked, one variant with a pothole."
+},
+"asphalt_hr_large": {
+"use": "Lay under street and car park scenes as base tarmac; tile several to cover open ground.",
+"what": "Flat asphalt ground plane, 12 m square, a single quad with tarmac texture."
+},
+"axe_mx": {
+"use": "Lean against woodpiles and sheds, or place as a melee pickup in rural and cabin levels.",
+"what": "Felling axe, wooden haft and steel head, 65 cm long."
+},
+"baking_soda": {
+"use": "Kitchen worktops, cupboard shelves and shop displays as small grocery dressing.",
+"what": "Cardboard baking soda carton, hand-sized, printed front."
+},
+"ball_bearing_mx_1_large": {
+"use": "Drop on workshop floors and machine bays, or pile as scrap beside lathes and presses.",
+"what": "Heavy steel bearing race, 20 cm disc, 5 cm thick, pitted and worn."
+},
+"ball_bearing_mx_1_small": {
+"use": "Scatter on workbenches and machine-shop floors as small mechanical clutter.",
+"what": "Small steel bearing race, 10 cm across, flat disc, worn grey finish."
+},
+"ball_bearing_mx_2_large": {
+"use": "Set on workshop benches and machine shop floors, or drop in crates as heavy spares.",
+"what": "Steel ball bearing ring, 20 cm across and 5 cm thick, bare machined metal."
+},
+"ball_bearing_mx_2_small": {
+"use": "Scatter on workshop benches and machine room floors as small mechanical clutter.",
+"what": "Small steel ball bearing race, 10 cm across, bare metal."
+},
+"ball_bearing_mx_large": {
+"use": "Workshop benches, machine shops and scrap piles; lay flat or lean against machinery.",
+"what": "Rusted steel roller bearing race, 20 cm across, 5 cm thick."
+},
+"ball_bearing_mx_small": {
+"use": "Small workshop clutter for benches, tool trays and the bases of machinery.",
+"what": "Steel bearing race, 10 cm disc, 2.5 cm thick, worn metal."
+},
+"bandage_mp": {
+"use": "Use as a health pickup or dress med kits, field hospitals and bathroom cabinets.",
+"what": "Rolled gauze bandage, hand-sized, off-white fabric, two variants."
+},
+"barnacle": {
+"use": "Anchor to cave walls, sewer floors and flooded holds as organic infestation.",
+"what": "Fleshy red barnacle growth, knee-high spined cone with an open maw on top."
+},
+"barricade_a": {
+"use": "Line roadworks, checkpoints and closed streets, or use as chest-high cover in the open.",
+"what": "Concrete road barrier with a bolted site hoarding panel, 2.9 m long, chest high."
+},
+"barricade_b": {
+"use": "Line roads, checkpoints and construction edges, or chain several into a crowd barrier run.",
+"what": "Concrete Jersey barrier with a steel railing on top, three metres long, chest high."
+},
+"bars_metal": {
+"use": "Fill doorways and window openings to block passage while keeping sightlines through.",
+"what": "Flat metal bar grille, 2.5 m wide by 2.4 m tall, thin frame."
+},
+"baseball_bat_mx": {
+"use": "Melee pickup, or lean against lockers and bar counters as improvised-weapon dressing.",
+"what": "Wooden baseball bat, 1.24 m, two worn finishes."
+},
+"battery_mp": {
+"use": "Use as a pickup item, or scatter in drawers, toolboxes and on shop shelves.",
+"what": "Loose cylindrical dry cells, printed wrappers, roughly D-cell size."
+},
+"beam": {
+"use": "Run overhead across warehouses and tunnels, or drop as collapsed debris across corridors.",
+"what": "Square structural beam, 4 m long, concrete or painted metal by variant."
+},
+"beam_hc_horizonatal": {
+"use": "Span ceilings, gantries and unfinished floors, or lay one down as fallen structural debris.",
+"what": "Rusted steel I-beam, four metres long, plain horizontal run."
+},
+"beam_hc_vertical": {
+"use": "Line up along warehouse and factory bays as the structural columns under beam runs.",
+"what": "Rusted steel box column, storey height, with cap plate and bolt bosses."
+},
+"beam_hl": {
+"use": "Span ceilings and doorways, or lay as fallen debris across corridors and rubble piles.",
+"what": "Grubby grey structural beam, 4 m long, shallow channel profile."
+},
+"beam_rtx": {
+"use": "Span between pillars overhead, or use as an exposed joist in unfinished concrete rooms.",
+"what": "Bare concrete beam, 4 m span, square section, plain cast surface."
+},
+"beam_rtx_pipes": {
+"use": "Hang overhead in industrial halls and service tunnels, or bridge gaps between wall modules.",
+"what": "Twin concrete beams, 4 m long, with rusted pipes running in the gap between."
+},
+"bed": {
+"use": "Bedrooms, barracks, hospital wards and squats; line them up in rows for institutional rooms.",
+"what": "Metal-framed bed with a stained old mattress, several frame variants."
+},
+"bed_frame": {
+"use": "Furnish barracks, cells, field hospitals and abandoned dormitories.",
+"what": "Steel bed frame with sprung mesh base, no mattress, worn paint."
+},
+"bedside_table": {
+"use": "Place beside beds in flats, motels and dorms; ten variants keep repeated rooms distinct.",
+"what": "Small wooden bedside cabinet, knee height, several timber finishes."
+},
+"bench_mx": {
+"use": "Line up in parks, waiting rooms and locker rooms, or set along outdoor walls.",
+"what": "Plank bench, no back, weathered timber slats on simple legs, seat height."
+},
+"blast_door_frame": {
+"use": "Use as the locked way into bunkers, vaults and reactor rooms where a code is needed.",
+"what": "Steel blast door in a heavy frame, 3 m wide, with a lit keypad beside it."
+},
+"boiler_hx": {
+"use": "Anchor an industrial yard or plant exterior; reads from a distance as a skyline landmark.",
+"what": "Concrete boiler tower nine metres tall, caged ladder, rusted pipes up one side."
+},
+"bolt_mx": {
+"use": "Scatter on workbenches and machine floors, or place as fixings on large steel structures.",
+"what": "Oversized steel bolt, 18 cm long, hex head."
+},
+"book_mp": {
+"use": "Stack on shelves and desks or scatter on floors in offices, studies and libraries.",
+"what": "Hardback book, A5-ish, ten different cover textures."
+},
+"brick": {
+"use": "Scatter as rubble, or stack into low piles beside broken walls and building sites.",
+"what": "Grey cored building block, holes through the top face, chipped along the edges."
+},
+"brick_mx": {
+"use": "Scatter as rubble around collapsed walls and building sites, or stack into small piles.",
+"what": "Single clay brick, standard size, chipped edges."
+},
+"bricks_stacked_mx": {
+"use": "Building sites, yards and part-repaired walls; pair with the loose brick rubble spread.",
+"what": "Neat stack of bricks, half a metre wide, knee high."
+},
+"bucket_mx": {
+"use": "Set down in utility rooms, building sites and cellars; tip one over for derelict rooms.",
+"what": "Open bucket, about 45 cm tall, three worn colour variants."
+},
+"bunker_entrance": {
+"use": "Set as the surface mouth of an underground level; bury the base in a hillside or berm.",
+"what": "Concrete bunker entrance block, 5 m wide and 8 m tall, metal-floor threshold."
+},
+"butcher_knife_mp": {
+"use": "Lay on kitchen counters and butcher blocks, or use as a melee weapon pickup.",
+"what": "Butcher's knife, broad steel blade and dark handle, half a metre long."
+},
+"button": {
+"use": "Mount by lift doors, shutters and machine bays as the interact point, cable up the wall.",
+"what": "Small metal button panel with lit red and green buttons on a long trailing cable."
+},
+"button_etx_black": {
+"use": "Mount on machinery, control panels and door frames as an interactive switch.",
+"what": "Bolted metal housing with a round black power button, mounting flanges, 20 cm wide."
+},
+"button_etx_blue": {
+"use": "Mount on control consoles, machine panels and door interfaces; the lens reads as powered.",
+"what": "Panel-mounted rocker switch, beige housing, lit blue lens."
+},
+"button_etx_green": {
+"use": "Mount on control panels and door frames as an interact point for lifts, doors and machinery.",
+"what": "Green illuminated push button on a small housing, 18 cm tall."
+},
+"button_etx_red": {
+"use": "Mount beside doors, lifts and machinery as an interactable or as a lit control.",
+"what": "Wall switch box, grey housing with a large glowing orange rocker."
+},
+"buttons_etx_black": {
+"use": "Inset into consoles, server racks and machine housings as a readable interact surface.",
+"what": "Flat black control panel with a row of lit push buttons, 25 cm wide."
+},
+"buttons_etx_blue": {
+"use": "Fix beside lift doors and platform gates as a call panel; emissive, so it reads in the dark.",
+"what": "Bolted plate with two glowing blue arrow buttons, hand-sized."
+},
+"buttons_etx_green": {
+"use": "Inset into control desks and machine fascias to build up console faces.",
+"what": "Flat panel plate of small lit green buttons, 14 by 20 cm."
+},
+"buttons_etx_red": {
+"use": "Inset into consoles and machine fascias where the player needs something obvious to press.",
+"what": "Flat plate of red illuminated push buttons, 20 cm tall."
+},
+"cage_mx": {
+"use": "Use as a holding pen or storage cage in warehouses, labs and prison blocks.",
+"what": "Welded steel mesh cage, 4.5 m long and head height, open bar frame."
+},
+"canned_food": {
+"use": "Stock pantry shelves and bunker stores, or scatter as scavenged supplies in hideouts.",
+"what": "Tin of canned food, labelled, roughly 11 cm across."
+},
+"canned_food_mp": {
+"use": "Fill pantry shelves, shop aisles and survival stashes, or scatter across looted kitchens.",
+"what": "Tin can of food, standard size, four label variants."
+},
+"canned_food_mp_rusty": {
+"use": "Stock shelves in bunkers and looted shops, or scatter as survival scavenge.",
+"what": "Rusted food tin with faded label, about 17 cm tall."
+},
+"capacitor_etx": {
+"use": "Populate open circuit boards, junction boxes and stripped machinery interiors.",
+"what": "Cylindrical capacitor, 19 cm tall, ten colour variants."
+},
+"car_battery": {
+"use": "Place in engine bays and on garage shelves, or use as a fetch item for a generator.",
+"what": "Lead-acid car battery, moulded plastic case with two posts on top."
+},
+"cardboard_box": {
+"use": "Stack in storerooms, loading bays and flats, or scatter as light clutter along corridors.",
+"what": "Cardboard box, about 70 cm square and knee high, taped and scuffed."
+},
+"carpet_mp": {
+"use": "Lay under furniture in living rooms and offices to break up bare floor tiling.",
+"what": "Flat patterned rug, three by two metres, effectively a single plane."
+},
+"cash": {
+"use": "Loot for desks, safes and open briefcases; scatter loose sheaves for robbery scenes.",
+"what": "Small bundle of banknotes, roughly 10 by 12 cm and a centimetre thick."
+},
+"cassette_tape_mp": {
+"use": "Scatter near stereos and desks, or use as a collectible audio-log pickup.",
+"what": "Audio cassette, palm-sized, two label designs."
+},
+"catwalk": {
+"use": "Chain sections along factory walls to make raised walkways above the floor.",
+"what": "Metal grating catwalk section, 4 m run with railings down the sides."
+},
+"ceiling_fan_mp": {
+"use": "Hang in offices, motel rooms and back rooms; turn it slowly for a lived-in interior.",
+"what": "Ceiling fan, wooden blades on a plastic housing, 1.1 m span."
+},
+"ceiling_fan_mp_1_light_off": {
+"use": "Hang in flats, bars and offices; use this unlit version for powered-down interiors.",
+"what": "Ceiling fan with an integrated light fitting, unlit, wooden blades."
+},
+"ceiling_fan_mp_1_light_on": {
+"use": "Hang in bars, offices and flats; add a real light source to match the emissive glow.",
+"what": "Ceiling fan with wooden blades and a lit centre light, 1.1 m span."
+},
+"ceiling_fan_mp_1_light_on_blades": {
+"use": "Hang from ceilings in offices and flats; the loose rotor is meant to be spun by script.",
+"what": "Three-blade ceiling fan rotor, dark timber blades on a metal hub, 1 m across."
+},
+"ceiling_lamp_1_a_off": {
+"use": "Hang in rows down corridors and warehouse ceilings where the power is out.",
+"what": "Long metal ceiling light fitting, 1.26 m, unlit tube in a dull housing."
+},
+"ceiling_lamp_1_a_on": {
+"use": "Line corridors and offices that should read as powered; back it with a real light source.",
+"what": "Lit ceiling light fixture, 1.26 m long, metal housing with a glowing panel."
+},
+"ceiling_lamp_1_b_off": {
+"use": "Corridors, cellars and workshops with no power; swap for a lit version when lights come up.",
+"what": "Caged strip light on a ceiling bracket, 1.26 m long, unlit."
+},
+"ceiling_lamp_1_b_on": {
+"use": "Run in rows down corridors and offices; back each one with an actual light source.",
+"what": "Ceiling strip light in a metal housing, 1.26 m long, lit."
+},
+"ceiling_lamp_1_off": {
+"use": "Line corridors and offices where the power is out; pair with the lit version for switching.",
+"what": "Unlit fluorescent ceiling strip light, 1.26 m, metal housing."
+},
+"ceiling_lamp_1_on": {
+"use": "Hang in rows over corridors, offices and shop floors; pair with a real light.",
+"what": "Long ceiling strip light, 1.26 m tube in a metal housing, emissive face."
+},
+"ceiling_lamp_a_off": {
+"use": "Use through dead and abandoned wings; swap for the lit variant when power is restored.",
+"what": "Unlit ceiling light fixture, 1.2 m long, dull metal housing."
+},
+"ceiling_lamp_a_on": {
+"use": "Run along office and corridor ceilings; pair with a real light source for the actual glow.",
+"what": "Lit fluorescent strip light, 1.2 m, flush ceiling fitting, emissive."
+},
+"ceiling_lamp_b_off": {
+"use": "Use where power is out; swap with the lit variant for blackout and sabotage scenes.",
+"what": "Ceiling strip light, 1.2 m long, unlit dark tube."
+},
+"ceiling_lamp_b_on": {
+"use": "Run along office, corridor and basement ceilings as the working light; add a real light too.",
+"what": "Lit fluorescent ceiling fixture, 1.2 m, emissive tubes."
+},
+"ceiling_lamp_fake_light": {
+"use": "Drop under ceiling lamps to fake a visible beam without adding a real light.",
+"what": "Fake light cone, a few transparent planes shaped as a beam from a ceiling lamp."
+},
+"ceiling_lamp_mp_1_fake_light": {
+"use": "Drop under ceiling lamps and windows to fake a light pool without adding a real light.",
+"what": "Fake light volume, 9 m across, a flat glow cone with no fixture attached."
+},
+"ceiling_lamp_mp_1_off": {
+"use": "Hang over kitchen tables, hallways and stairwells in domestic interiors.",
+"what": "Small pendant lamp on a short stem, unlit, metal and plastic shade."
+},
+"ceiling_lamp_mp_1_on": {
+"use": "Hang in stairwells, cellars and utility rooms where a full strip light is too big.",
+"what": "Small lit ceiling lamp with metal and plastic shade, about 45 cm long."
+},
+"ceiling_lamp_mp_off": {
+"use": "Hang in domestic rooms and stairwells that are meant to read as dead or unpowered.",
+"what": "Small unlit ceiling lamp, 45 cm drop, metal shade and plastic diffuser."
+},
+"ceiling_lamp_mp_on": {
+"use": "Hang over stairwells, back rooms and cellars for a single warm pool of light.",
+"what": "Small lit ceiling lamp, metal shade over a yellow bulb, about 45 cm."
+},
+"ceiling_lamp_off": {
+"use": "Hang through unpowered corridors, basements and stairwells where the lights have failed.",
+"what": "Unlit ceiling lamp, about 1 m long, bare metal housing and dead tube."
+},
+"ceiling_lamp_on": {
+"use": "Ceilings of shops, offices and lobbies; put a point light beneath to sell the emission.",
+"what": "Lit ceiling lamp with an emissive shade, roughly a metre across."
+},
+"ceiling_peace": {
+"use": "Tile across bunker and tunnel ceilings, or drop a few askew for collapsed sections.",
+"what": "Rusted sheet-metal ceiling panel, 3 by 1.5 m, edges turned up."
+},
+"cell_phone": {
+"use": "Leave on desks, bedside tables and bodies as a readable pickup or story item.",
+"what": "Chunky candybar mobile phone, 21 cm long, three shell variants."
+},
+"cell_phone_battery": {
+"use": "Scatter on desks and in drawers, or use as small loot in scavenging levels.",
+"what": "Flat mobile phone battery pack with a printed label, fits in a palm."
+},
+"cell_phone_hammer_mx": {
+"use": "Place as a melee pickup in scavenger dens, or as set dressing on a workbench.",
+"what": "Improvised club: a mobile phone taped to a hammer handle, grip wrapped in tape."
+},
+"cement_bag_mp": {
+"use": "Building sites and basements; stack a few by a mixer or leave one split open on the floor.",
+"what": "Paper cement sack, slumped, 60 cm long, printed face."
+},
+"cement_bags_mp_pallet": {
+"use": "Building sites and yards; solid enough to block a route or serve as waist-high cover.",
+"what": "Stacked cement bags on a wooden pallet, chest high."
+},
+"chair_mp": {
+"use": "Fill dining rooms, offices and waiting areas; 24 variants avoid repeats in one room.",
+"what": "Wooden chair with fabric seat, 1 m tall, many timber and upholstery combinations."
+},
+"chair_wooden": {
+"use": "Set at tables in kitchens, mess halls and interrogation rooms; tip a few over.",
+"what": "Plain wooden chair with a slatted back, bare timber throughout."
+},
+"chimney_a": {
+"use": "Set on the roofs of sheds, huts and low buildings to break up the silhouette.",
+"what": "Rusted metal chimney flue with a cap, 1.4 m tall."
+},
+"cig": {
+"use": "Litter ashtrays, gutters and doorways; a few near a chair or a body reads as recent.",
+"what": "Single cigarette, 9 cm, three variants including burnt-down stubs."
+},
+"cigs_packet": {
+"use": "Small dressing for ashtrays, desks, bedside tables and pocket loot.",
+"what": "Cigarette packet, simple textured box, 16 cm across."
+},
+"circuit_board_etx": {
+"use": "Lay inside opened consoles and machines, or scatter as e-waste on workbenches.",
+"what": "Bare printed circuit board, 24 cm square, a few millimetres thick."
+},
+"clock": {
+"use": "Hang on office, classroom and station walls at eye height.",
+"what": "Round wall clock, 28 cm face behind flat glass, plain rim."
+},
+"cobweb": {
+"use": "Tuck into ceiling corners, doorframes and shelf gaps in abandoned interiors.",
+"what": "Flat cobweb card, under a metre across, a single alpha quad."
+},
+"coffee_table": {
+"use": "Living rooms and waiting areas in front of sofas; dress the top with clutter props.",
+"what": "Low rectangular wooden coffee table, 1.6 m long, five timber finishes."
+},
+"coin_mp": {
+"use": "Scatter on floors, counters and in tills, or pile up as small change loot.",
+"what": "Single coin, 4 cm across, flat metal disc."
+},
+"compact_disc_mp": {
+"use": "Scatter on desks and floors near PCs and stereos, or use as a small key item.",
+"what": "Compact disc, 18 cm across, no case."
+},
+"computer": {
+"use": "Scale up before use; stands in as a keyboard or a blank console face on desks.",
+"what": "Plain beige plastic slab with chamfered edges, only 8 cm long, no detail."
+},
+"computer_terminal_etx": {
+"use": "Set on desks in control rooms and labs as an interact terminal or background workstation.",
+"what": "Desktop computer terminal with a lit screen, beige housing, about 90 cm wide."
+},
+"concrete_block": {
+"use": "Building sites and half-built walls; stack a few or use one singly to prop something up.",
+"what": "Plain concrete breeze block, 43 cm long, cast surface."
+},
+"concrete_block_mx": {
+"use": "Line roads and checkpoints, or drop in open streets and yards as hard cover.",
+"what": "Cast concrete barrier block, 2.2 m long and chest high."
+},
+"concrete_fence_hr": {
+"use": "Chain into perimeter walls around depots, compounds and prisons; blocks sightlines.",
+"what": "Precast concrete wall panel, 3.6 m wide and 3 m tall, barbed wire on top."
+},
+"concrete_fence_hr_pillar": {
+"use": "Space along a perimeter run and drop fence panels between the posts.",
+"what": "Precast concrete fence post, 2.5 m tall, plain slab section."
+},
+"concrete_fence_hr_pillar_corner": {
+"use": "Turn corners in concrete perimeter fencing around yards, depots and compounds.",
+"what": "Concrete fence post, 2.5 m tall, square section, cut for a corner."
+},
+"concrete_pipe_hm_end": {
+"use": "Storm drains, construction yards and tunnel mouths; lay on its side as a crawlspace.",
+"what": "Concrete culvert pipe, 4.3 m long, 2.2 m bore, capped end section."
+},
+"concrete_pipe_hm_end_bars": {
+"use": "Cap storm drain and culvert mouths to seal them while keeping the space beyond visible.",
+"what": "Rusted round bar grille, 2 m across, made to cap a large pipe end."
+},
+"concrete_pipe_hm_middle": {
+"use": "Chain into storm drains and culverts, or lay on the ground as crawl-through cover.",
+"what": "Concrete drainage pipe section, 2 m bore, 4.1 m long, hollow through."
+},
+"control_panel_etx": {
+"use": "Stand against machine room and bunker walls, or line several along a control corridor.",
+"what": "Industrial control panel cabinet, waist high, dials and lit indicators on the face."
+},
+"cpu": {
+"use": "Scatter on workbenches and among stripped electronics in labs and repair shops.",
+"what": "Bare CPU chip, about 10 cm square, pin grid on a printed substrate."
+},
+"cross": {
+"use": "Hang above beds, in chapels and on hallway walls for a religious household read.",
+"what": "Small wooden crucifix, 39 cm tall, flat wall-hanging piece."
+},
+"cross_mp": {
+"use": "Hang on walls in chapels and homes, or plant in the ground as a grave marker.",
+"what": "Flat cross, about 48 cm tall, plain surface."
+},
+"cup_etx": {
+"use": "Dress desks, canteen tables and break rooms; good for small hand-scale clutter.",
+"what": "Ceramic mug with handle, 12 cm tall."
+},
+"curtain_rod_mp": {
+"use": "Fix above windows in flats and offices; leave bare for a stripped, looted look.",
+"what": "Metal curtain rail, 3 m span, with end brackets and plastic runners."
+},
+"data_block_etx": {
+"use": "Place on server racks and repair benches, or use as a small collectable objective item.",
+"what": "Green circuit board module with copper pads and metal pin connectors, 20 cm long."
+},
+"debris_bricks_mx": {
+"use": "Lay on floors below collapsed walls and blast holes; overlap several for wider rubble fields.",
+"what": "Flat spread of loose brick rubble, about two metres across, very thin."
+},
+"dinner_table": {
+"use": "Centre of kitchens and mess halls; flip one on its side for improvised cover.",
+"what": "Plain wooden dining table, 1.7 by 1.1 m, five wood finishes."
+},
+"dirty_sock_mx": {
+"use": "Scatter in bedrooms, laundry rooms and squats to sell neglect and lived-in mess.",
+"what": "Single dirty sock, lying flat, about 30 cm across."
+},
+"display_cabinet_mp": {
+"use": "Line shop and museum interiors, or knock one over to block a doorway.",
+"what": "Tall glazed display cabinet, wooden frame with glass panels, above head height."
+},
+"distillery_mx": {
+"use": "Anchor moonshine sheds, backroom brewing setups and improvised chemical rooms.",
+"what": "Metal still, tank and condenser coil on a frame, 3.5 m tall."
+},
+"door_hr": {
+"use": "Fit into the modular doorway frames, or lean one off its hinges against a wall as damage.",
+"what": "Single door leaf, standard 1 x 2.1 m, five painted and panelled variants."
+},
+"door_loose": {
+"use": "Lean against walls, board over openings, or lay flat as debris in ransacked rooms.",
+"what": "Loose door leaf with handle, 1 by 2.1 m, four finishes."
+},
+"door_mp_loose": {
+"use": "Hang on a hinge script, or prop against walls and lay flat as ripped-out debris.",
+"what": "Loose door leaf with handle, 1 m by 2.1 m, two panel styles."
+},
+"doorway": {
+"use": "Slot into a 4 m wall grid to join rooms; swap variants for different door faces.",
+"what": "Modular wall section with a hung single door in a wooden frame, room height."
+},
+"doorway_1_half": {
+"use": "Fill part-width gaps in modular interior walls where a full 4 m panel will not fit.",
+"what": "Half-width wall section, 3 m tall, with a wooden-framed doorway opening."
+},
+"doorway_2_half": {
+"use": "Close out modular room runs where a full four-metre wall module does not fit.",
+"what": "Half-width interior wall with a single doorway, 2.1 m wide, 3 m tall."
+},
+"doorway_door_mp": {
+"use": "Drop into modular interior wall runs where a room needs a working entrance.",
+"what": "Wall section 4 m wide with a fitted wooden door in its frame, 3 m tall."
+},
+"doorway_half": {
+"use": "Use as the narrow filler piece when a full 4 m wall bay is too wide for the room plan.",
+"what": "Half-width interior wall section with a framed doorway, 2 m wide and 3 m tall."
+},
+"doorway_hr": {
+"use": "Slot into a 4 m concrete wall run for bunker, plant room and stairwell interiors.",
+"what": "Concrete wall section with a plain single doorway, 4 m wide, room height."
+},
+"doorway_hr_regular": {
+"use": "Snap into modular interior and exterior wall runs wherever rooms need to connect.",
+"what": "Wall panel, 4 m wide and 3 m tall, with a plain doorway opening cut through."
+},
+"doorway_hr_wide": {
+"use": "Standard kit piece for industrial and warehouse interiors; snaps to the 4 m module grid.",
+"what": "Four-metre brick wall module with a wide double doorway, 3 m tall."
+},
+"doorway_hs_regular": {
+"use": "Standard connector between rooms in modular concrete builds; no door leaf fitted.",
+"what": "Concrete wall section 4 m wide with a plain open doorway, 3 m tall."
+},
+"doorway_hs_wide": {
+"use": "Drop into industrial and bunker wall runs where a big unobstructed opening is wanted.",
+"what": "Concrete wall bay with a wide open doorway, 4 m by 3 m."
+},
+"doorway_plain": {
+"use": "Use in a 4 m wall grid for utility rooms, corridors and back-of-house doors.",
+"what": "Wall section with a plain flush door, no trim, concrete or painted finish."
+},
+"doorway_rg_regular": {
+"use": "Use in modular wall runs where the door should read as hung or closed rather than open.",
+"what": "Wall panel, 4 m wide and 3 m tall, doorway with a fitted door leaf."
+},
+"doorway_rg_wide": {
+"use": "Grey render variant of the wide doorway; works on the same 4 m grid as the brick set.",
+"what": "Rendered concrete wall module with a wide double doorway, 4 m wide, 3 m tall."
+},
+"doorway_rtx_wide": {
+"use": "Use where crowds or vehicles pass; swaps with the plain doorway on the same wall grid.",
+"what": "Concrete wall section with a wide door opening, 4 by 3 m."
+},
+"doorway_rx": {
+"use": "Use in corridor and warehouse wall runs as a closed opening; swap for the empty bay.",
+"what": "Concrete wall bay, 4 m by 3 m, with a fitted metal door in the opening."
+},
+"doorway_wide": {
+"use": "Use for hall entrances, ward doors and any opening that needs a wider run.",
+"what": "Wall section with double doors and handles in a wooden frame, room height."
+},
+"dosimeter": {
+"use": "Place in bunker lockers and hazmat kits, or hand it out as a radiation-reading pickup.",
+"what": "Handheld dosimeter, boxy plastic case with a dial face, 30 cm long."
+},
+"double_single_doorway": {
+"use": "Split flats and offices into connected rooms; hang door leaves in the openings or leave bare.",
+"what": "Wallpapered interior wall module with two single door openings, 4.1 m wide."
+},
+"drain_cover": {
+"use": "Set flush into pavements, yard floors and tunnel gutters.",
+"what": "Square metal drain cover, 40 cm, slotted and grimy, two patterns."
+},
+"electrical_equipment": {
+"use": "Line substation yards, alley backs and plant rooms; tall enough to block sightlines.",
+"what": "Boxy transformer cabinet, 2.7 m tall, painted metal, two skins."
+},
+"electrical_outlet": {
+"use": "Dot along interior walls near skirting height for domestic and office detail.",
+"what": "Wall socket faceplate, 11 cm square, flush plastic cover."
+},
+"electrical_tape_etx": {
+"use": "Drop on workbenches, in toolboxes and on shelves in maintenance rooms and garages.",
+"what": "Roll of black electrical tape, 10 cm across."
+},
+"elevator": {
+"use": "Drop into corridor ends and lobbies as a level transition or a scripted set piece.",
+"what": "Lift shaft module with sliding doors and a call panel, 3 m tall."
+},
+"elevator_buttons": {
+"use": "Mount beside lift doors and in lobbies; also reads as a generic wall control panel.",
+"what": "Lift call panel, 27 by 50 cm, buttons on a flat plate."
+},
+"elevator_call_button": {
+"use": "Mount beside lift doors at chest height as the interact point for calling the car.",
+"what": "Wall-mounted lift call panel, 44 cm tall, single button plate."
+},
+"elevator_doorway": {
+"use": "Set into a 4 m wall on each floor of a lift shaft, or as a fake lift dead end.",
+"what": "Wall section with sliding lift doors, a call button and a floor sign."
+},
+"elevator_screen": {
+"use": "Mount above lift doors in lobbies and shafts; retexture the readout for the floor number.",
+"what": "Lift floor-indicator display, 70 cm wide, flat panel with a lit readout."
+},
+"elevator_sign": {
+"use": "Mount above lift doors in lobbies and hospital corridors to sell which floor you are on.",
+"what": "Lit floor-indicator sign for a lift, 76 cm wide, emissive face."
+},
+"fader_etx": {
+"use": "Build up mixing desks, reactor consoles and laboratory equipment faces.",
+"what": "Panel slider fader, 38 cm travel, lit scale markings."
+},
+"fake_light_window_double": {
+"use": "Angle from windows onto floors to fake sunbeams without paying for a real light.",
+"what": "Flat light-shaft card, 2.2 m wide, fake geometry standing in for daylight."
+},
+"fake_light_window_single": {
+"use": "Place inside windows to fake a sunbeam falling into a room, with no real light.",
+"what": "Fake light shaft, transparent planes cut to the shape of a window beam."
+},
+"fence_a": {
+"use": "Run along yard and garden boundaries, or use to close off backlot alleys.",
+"what": "Wooden plank fence section, 4 m long and 2 m tall, weathered boards."
+},
+"fence_b": {
+"use": "Ring building sites and back lots; tile several for a long hoarding run.",
+"what": "Corrugated metal fence panel on a timber frame, 4 m wide, 2.4 m tall."
+},
+"fence_b_pillar": {
+"use": "Space along fence runs as the repeating post between panels.",
+"what": "Square timber fence post, 2.5 m tall, plain plank texture."
+},
+"fence_e": {
+"use": "Chain around yards and compounds where you want the player to see through the barrier.",
+"what": "Wire mesh fence panel on metal posts, 3.6 m wide, 2.85 m tall, barbed top."
+},
+"fence_e_pillar": {
+"use": "Set at the ends and corners of mesh fence runs around yards and compounds.",
+"what": "Metal fence post, 2 m tall, thin flat upright with a mesh panel edge."
+},
+"fence_e_pillar_corner": {
+"use": "Turn corners in mesh perimeter fencing around depots, car parks and compounds.",
+"what": "Metal fence corner post, 2 m tall, square section."
+},
+"fern": {
+"use": "Undergrowth in forests and overgrown lots; cluster at tree bases and along path edges.",
+"what": "Low leafy fern, about 1.4 m across, three shape variants."
+},
+"first_aid_kit_hr": {
+"use": "Mount on walls in med bays and workshops, or leave on shelves as a health pickup.",
+"what": "Small flat first aid box with a red cross, 20 cm wide, grimy."
+},
+"fish_mx": {
+"use": "Dress market stalls, docks and kitchens, or leave on a slab as rotting food.",
+"what": "Whole dead fish, 55 cm long, dull scales."
+},
+"fish_skeleton_mp": {
+"use": "Scatter on dry lake beds, docksides and cannery floors as decay dressing.",
+"what": "Dried fish skeleton, half a metre of bare spine and ribs, near flat."
+},
+"fishing_hook_mx": {
+"use": "Hang from chains in slaughterhouses and boat sheds, or use as an improvised grapple pickup.",
+"what": "Oversized rusted treble hook, 40 cm tall, three barbed points."
+},
+"flare_mx": {
+"use": "Toolboxes, glove compartments and emergency kits; also a pickup item for dark levels.",
+"what": "Handheld road flare, 20 cm, unlit cardboard tube."
+},
+"flare_mx_used": {
+"use": "Drop along roadsides and tunnel floors as a trace of someone passing through.",
+"what": "Spent road flare, 20 cm stick, burnt out."
+},
+"flashlight": {
+"use": "Standard pickup for dark levels; also lay in toolboxes, glove boxes and drawers.",
+"what": "Handheld torch, 22 cm, metal body with an emissive lens, three variants."
+},
+"flashlight_mp": {
+"use": "Use as a pickup, or leave switched on beside bodies and abandoned camps.",
+"what": "Handheld torch, 23 cm plastic body with a lit lens face."
+},
+"floor": {
+"use": "Tile out bunker and building floors on a 4 m grid; also works flipped as a ceiling.",
+"what": "Flat concrete floor tile, 4 m square and 2 cm thick."
+},
+"floor_ceiling": {
+"use": "Base tile for the modular kit; grid these out for rooms and flip one for the ceiling above.",
+"what": "Flat 4 x 4 m floor or ceiling tile, four surface finishes."
+},
+"floor_ceiling_hr": {
+"use": "Tile out storeys on the 4 m grid; the underside doubles as the ceiling of the room below.",
+"what": "Concrete floor and ceiling slab, 4 by 4 m, 40 cm thick, five surfaces."
+},
+"floor_ceiling_hr_hole": {
+"use": "Punch vertical routes between storeys, or show collapse damage in ruined buildings.",
+"what": "Concrete floor slab, 4 m square, broken open with exposed rebar."
+},
+"floor_ceiling_hr_m1a": {
+"use": "Tile across a 4 m grid to build storey decks; the underside doubles as a ceiling.",
+"what": "Plain concrete floor and ceiling slab, 4 m square and 40 cm thick."
+},
+"floor_ceiling_hr_m2a": {
+"use": "Stack between wall modules to build multi-storey interiors on the same 4 m grid.",
+"what": "Concrete floor and ceiling slab, 4 m square and 40 cm thick."
+},
+"floor_ceiling_hs_slope": {
+"use": "Ramps between floor levels in car parks and yards; chain them for a continuous climb.",
+"what": "Sloped 4 x 4 m floor tile rising 1.3 m, four surface finishes."
+},
+"floor_ceiling_hy": {
+"use": "Alternate surface on the same 4 m floor grid where the ceiling should read as panelled.",
+"what": "Concrete floor and ceiling slab, 4 by 4 m, with a panelled underside."
+},
+"floor_ceiling_rtx": {
+"use": "Tile as industrial flooring; the grating reads as a walkway or a service void below.",
+"what": "Concrete floor and ceiling slab, 4 m square, with inset metal grating."
+},
+"floor_ceiling_rtx_corner": {
+"use": "Use where two floor runs meet at a corner in industrial and bunker interiors.",
+"what": "Concrete deck slab, 4 m square corner piece with a metal edge trim."
+},
+"floor_ceiling_rx": {
+"use": "Use for tiled rooms such as bathrooms, labs and kitchens on the same 4 m grid.",
+"what": "Concrete slab, 4 m square and 40 cm thick, tiled on the floor face."
+},
+"floor_manhole_shaft_end": {
+"use": "Cap a sewer or bunker route where the player drops through the floor into the tunnels.",
+"what": "Concrete floor slab with a manhole cover and a capped shaft dropping below."
+},
+"floppy_disc": {
+"use": "Scatter on desks and server room floors, or use as a fetch item in period offices.",
+"what": "Floppy disk, 20 cm square, four label designs."
+},
+"fork_mp": {
+"use": "Small dressing for kitchens, canteen trays and dining tables.",
+"what": "Metal table fork, 27 cm."
+},
+"fuse_box_etx": {
+"use": "Fix to plant room and basement walls; use as a power switch or breaker objective.",
+"what": "Wall fuse box, metre-tall metal cabinet with a vented grille and lights."
+},
+"garage_door_frame_hr": {
+"use": "Face garages, workshops and loading bays onto streets and yards.",
+"what": "Wall panel, 4 m wide and 3 m tall, with a roller garage door in the opening."
+},
+"garage_door_frame_hs": {
+"use": "Workshop, depot and lock-up frontages; sits on the same 4 m grid as the other walls.",
+"what": "Four-metre wall module with a roller garage door in a concrete frame."
+},
+"garage_door_frame_rg": {
+"use": "Front loading bays, lock-ups and workshop entrances on the modular wall grid.",
+"what": "Wall section with a roller garage door in its frame, 4 by 3 m."
+},
+"garage_hl": {
+"use": "Drop into suburban streets and yards as a standalone structure or interior entrance.",
+"what": "Brick garage building, 5.2 by 7.9 m, 4.7 m tall, roller and side doors."
+},
+"garage_hm": {
+"use": "Drop along back streets and yards, or use as a sealed shortcut to open later.",
+"what": "Small concrete garage building with a roller shutter and a side door."
+},
+"garages_block_hr": {
+"use": "Line the back of housing blocks and industrial estates as one-piece background building.",
+"what": "Row of brick lock-up garages, 20 m long, roller doors along one face."
+},
+"gas_cylinder_mx": {
+"use": "Stand against workshop and kitchen walls; also reads as an explosive barrel substitute.",
+"what": "Tall steel gas bottle, 1.6 m, with a valve collar."
+},
+"gate": {
+"use": "Close off yards, alleys and site entrances; blocks movement but you can see over it.",
+"what": "Corrugated metal gate panel, 5 m wide and 1.6 m tall, graffiti and flyposters."
+},
+"gauge_etx": {
+"use": "Mount on boilers, pipe runs and control walls; the variants keep a bank of dials varied.",
+"what": "Panel pressure gauge with glass face, 38 cm tall, six dial variants."
+},
+"gay_card_mp": {
+"use": "Leave in wallets, on desks and in lockers as readable personal clutter.",
+"what": "Laminated novelty ID card, credit card size, photo and rainbow heart printed."
+},
+"gear_mx": {
+"use": "Scatter over workshop benches and machine room floors, or kitbash into larger machinery.",
+"what": "Steel gear wheel, 13 cm across, bare toothed metal."
+},
+"generator": {
+"use": "Bunker plant rooms and yard corners; useful as a power objective or humming ambience.",
+"what": "Industrial diesel generator unit, 3.4 m long, boxed steel casing."
+},
+"gift_box_mx": {
+"use": "Pile under trees or on tables for festive dressing; also works as a generic parcel.",
+"what": "Wrapped gift box with ribbon, 20 cm cube, four wrapping patterns."
+},
+"glass_bottle": {
+"use": "Line bar shelves and crates, or scatter as bottle litter in squats and alleys.",
+"what": "Glass bottle, 35 cm tall, two label variants."
+},
+"glass_bottle_mx": {
+"use": "Line bar shelves and crates, or scatter over tables and gutters as litter.",
+"what": "Tall glass bottle, 40 cm, printed label, three drink variants."
+},
+"glass_bottle_mx_broken": {
+"use": "Drop on bar floors and squat interiors, or use as an improvised melee pickup.",
+"what": "Broken glass bottle, neck intact above a jagged shoulder, 30 cm tall."
+},
+"gold_bar_pcs": {
+"use": "Vaults, safes and heist stashes; stack a few or leave one on a table as a pickup.",
+"what": "Single stamped gold ingot, 22 cm long, bright cast finish."
+},
+"graffiti_mx": {
+"use": "Project onto walls, shutters and underpasses; offset slightly to avoid z-fighting.",
+"what": "Flat graffiti decal on a single plane, up to 3.7 m wide, four tags."
+},
+"grass": {
+"use": "Scatter across verges and wasteland to break up flat terrain; cheap at 30 triangles.",
+"what": "Crossed-plane grass clump, about 1.4 m across, four foliage variants."
+},
+"gravel_pile_hr": {
+"use": "Drop on building sites, verges and rail beds to break up flat ground.",
+"what": "Low gravel pile, about 1.5 m across and shin deep, loose grey stone."
+},
+"half_arc_pillar_tall_wall_plain": {
+"use": "Build double-height halls and colonnades; pair two to close a full arch over a walkway.",
+"what": "Stone pillar 6 m tall with a half arch and lintel springing off one side."
+},
+"half_arc_pillar_wall_plain": {
+"use": "Chain into arcades along cellar and warehouse walls; two mirrored make one full arch.",
+"what": "Brick pillar with half arches springing from either side, 3 x 3 m."
+},
+"hammer_mx": {
+"use": "Leave on workbenches and in toolboxes, or on the floor as an improvised weapon.",
+"what": "Hammer with 52 cm handle and worn steel head, two finishes."
+},
+"hand_saw": {
+"use": "Lay on workbenches and in toolboxes, or use as an improvised melee pickup.",
+"what": "Carpenter's hand saw, 70 cm, wooden handle and steel blade."
+},
+"handheld_fm_radio_etx": {
+"use": "Set on desks, windowsills and camp tables, or use as an audio source prop.",
+"what": "Handheld FM radio, 40 cm including the aerial, moulded plastic body."
+},
+"handheld_game_console": {
+"use": "Leave on beds, sofas and desks in bedrooms and break rooms as personal clutter.",
+"what": "Handheld games console, plastic shell with a small screen, 24 cm long."
+},
+"handheld_tablet": {
+"use": "Desks, hospital beds and lab benches; leave one on a chair as a dropped-item beat.",
+"what": "Handheld tablet computer, 21 cm, dark screen."
+},
+"hanging_shelf_mx": {
+"use": "Fix above benches and counters, then dress the top with small props.",
+"what": "Wall-hung timber shelf on metal brackets, 1.6 m long, six variants."
+},
+"healing_potion_mp": {
+"use": "Health pickup; also stands in as lab reagent on shelves and medical trolleys.",
+"what": "Small glass vial of red liquid, 12 cm tall, two variants."
+},
+"hexagon_nut_mx": {
+"use": "Scatter over workshop benches, machine bases and toolboxes as fastener clutter.",
+"what": "Steel hexagon nut, about 10 cm across, bare machined metal."
+},
+"hydraulic_spreader_etx": {
+"use": "Place in fire and rescue vehicles and kit stores, or as a door-breaching tool pickup.",
+"what": "Hydraulic rescue spreader, painted steel jaws and grip, 1.2 m long."
+},
+"id_mp": {
+"use": "Desks, bodies and floor scatter; works as a keycard pickup for locked doors.",
+"what": "Laminated ID card, credit-card sized, printed photo face."
+},
+"incognito_mask_mp": {
+"use": "Costume or evidence prop for hideouts, dressing rooms and heist stashes.",
+"what": "Novelty disguise mask with glasses and nose, hand sized."
+},
+"jam_jar_mp_medium": {
+"use": "Fill pantry shelves and cellar racks, or use as a small food pickup.",
+"what": "Glass preserve jar with lid, 15 cm across and 25 cm tall."
+},
+"jam_jar_mp_small": {
+"use": "Line pantry and cellar shelves, or set in crates as preserved food stores.",
+"what": "Small glass jam jar with a lid and printed paper label, 20 cm tall."
+},
+"jerrycan": {
+"use": "Line up in garages, generator rooms and vehicle bays, or use as a fuel pickup.",
+"what": "Steel jerrycan, 20-litre size, dented and painted."
+},
+"jerrycan_mx": {
+"use": "Garages, vehicle boots and generator rooms; a small cluster reads as a fuel stash.",
+"what": "Steel jerrycan, 62 cm tall, with carry handles and a cap."
+},
+"key_mp": {
+"use": "Objective pickup on desks, key hooks and bodies; small enough to need a highlight.",
+"what": "Single door key, 14 cm long, four head shapes."
+},
+"keycard": {
+"use": "Use as a door-access pickup; the colours let you tie cards to specific security levels.",
+"what": "Flat plastic access keycard, 13 cm, four colour codings."
+},
+"keycard_authorization_level": {
+"use": "Use as a locked-door key item; leave on desks, on bodies and in card readers.",
+"what": "Plastic access keycard, credit card size, four printed clearance levels."
+},
+"keypad": {
+"use": "Fit beside locked doors and blast doors as the code-entry interact point.",
+"what": "Wall-mounted door keypad, lit keys on a metal plate, 20 cm tall."
+},
+"kids_computer": {
+"use": "Bunker living quarters and kids bedrooms; a small odd note in a domestic space.",
+"what": "Toy laptop computer for a child, 35 cm, moulded plastic."
+},
+"knife_mp": {
+"use": "Weapon pickup on tables and crates, or stuck into wood for a threatening detail.",
+"what": "Fixed blade knife, 44 cm overall, two blade finishes."
+},
+"ladder_hr_long": {
+"use": "Bolt to walls and shafts for vertical routes between floors, roofs and pits.",
+"what": "Steel ladder, 8.1 m tall and 84 cm wide, rusted rungs."
+},
+"ladder_hr_short": {
+"use": "Fix to walls and pits for a one-storey climb between floors and catwalks.",
+"what": "Short steel ladder, 2.7 m of rungs on flat side rails, no cage."
+},
+"lamp": {
+"use": "Fix to bunker walls and stair landings; pair with a real point light for the pool.",
+"what": "Caged bulkhead lamp, black metal guard over a lit bulb, 27 cm across."
+},
+"lamp_1_off": {
+"use": "Workshops, cellars and service corridors that are powered down or lit from elsewhere.",
+"what": "Caged fluorescent strip light, 1.26 m, wire guard, unlit."
+},
+"lamp_1_on": {
+"use": "Wall or ceiling mount along corridors and workshops; back it with a real light.",
+"what": "Lit tube lamp in a metal fitting, 1.26 m long, three looks."
+},
+"lamp_2_off": {
+"use": "Fit to corridor and stairwell walls in areas meant to read as unpowered.",
+"what": "Unlit wall lamp, 36 cm, metal bracket with a plastic shade."
+},
+"lamp_2_on": {
+"use": "Fix to corridor and stairwell walls; pair with a real light for the pool.",
+"what": "Small wall lamp, metal shade over a lit yellow bulb, 36 cm."
+},
+"lamp_mx_a_off": {
+"use": "Use in unpowered rooms and derelict corners; swap for a lit variant when power returns.",
+"what": "Small unlit metal lamp, about 25 cm tall, dark housing and dead bulb."
+},
+"lamp_mx_a_on": {
+"use": "Stairwells, engine rooms and tunnel walls; pair each with a point light for real falloff.",
+"what": "Small lit bulkhead cage lamp on a wall bracket, 25 cm, emissive."
+},
+"lamp_mx_b_off": {
+"use": "Bedside tables, desks and workbenches where the lamp should read as unlit.",
+"what": "Small metal lamp with dark glass, about 25 cm, switched off."
+},
+"lamp_mx_b_on": {
+"use": "Place on desks, shelves and wall brackets as a local light source in dim interiors.",
+"what": "Small lit lamp, 25 cm, dark metal body with an emissive bulb."
+},
+"lamp_mx_off": {
+"use": "Hang or stand in unpowered areas, or use as the off state of a lit fixture.",
+"what": "Unlit metal work lamp with a wide shade, roughly 70 cm across."
+},
+"lamp_mx_on": {
+"use": "Mount on walls in workshops, yards and stairwells; back it with a real light source.",
+"what": "Lit metal wall lamp with a shade, 70 cm tall, warm glowing bulb."
+},
+"lamp_off": {
+"use": "Cheap ceiling fill for large unlit interiors where the fitting is only seen at a distance.",
+"what": "Plain fluorescent strip light, 1.2 m, no cage, unlit, very low poly."
+},
+"lamp_on": {
+"use": "Cheap ceiling lighting for large rooms; 32 triangles, so use it in bulk.",
+"what": "Bare lit strip tube, 1.2 m long, minimal fitting, four looks."
+},
+"lever_etx": {
+"use": "Use as the interact point for gates, power and machinery; vary the type per puzzle.",
+"what": "Wall or panel lever, 32 cm tall, eleven handle and base variants."
+},
+"light_switch": {
+"use": "Fix beside interior doorways at shoulder height; use as an interactable.",
+"what": "Wall light switch, 11 cm plastic plate with a single rocker."
+},
+"lighter_mp": {
+"use": "Drop on tables, bedside units and ashtrays, or use as a small fire-lighting pickup.",
+"what": "Disposable plastic lighter, coloured body, palm-sized."
+},
+"lollipop_mp": {
+"use": "Sweet shop counters and jars; scatter a few across a bedroom floor.",
+"what": "Wrapped lollipop on a stick, 13 cm, four colour variants."
+},
+"luggage_mp": {
+"use": "Stack in station halls, hotel rooms and car boots; single ones read as abandoned.",
+"what": "Hard suitcase, 77 cm wide, closed, scuffed shell."
+},
+"machete_mx": {
+"use": "Melee pickup, or leave stuck in a workbench or crate in jungle and camp sets.",
+"what": "Long machete, 1.18 m overall, worn steel blade and dark grip."
+},
+"machinery": {
+"use": "Line plant rooms, bunkers and generator halls, or group several as a machine bank.",
+"what": "Grey steel machine cabinet, relay blocks on the face and punched vents, chest high."
+},
+"machinery_mx": {
+"use": "Line factory floors and plant rooms; also works as full-height blocking in industrial spaces.",
+"what": "Industrial machine on a steel frame, 3 m wide and 1.75 m tall, painted metal."
+},
+"magnet_mp": {
+"use": "Classroom desks, lab benches and toy boxes; reads as a puzzle item or a pickup.",
+"what": "Red horseshoe magnet with steel tips marked plus and minus, 20 cm."
+},
+"mail_box_mx": {
+"use": "Bank several beside entrance doors in blocks of flats and office lobbies.",
+"what": "Wall-mounted letterbox, 31 by 43 cm, shallow metal case."
+},
+"makeshift_melee_mx": {
+"use": "Use as a scavenged melee pickup, or dress workshop benches in survivor-camp levels.",
+"what": "Improvised weapon: circular saw blade lashed to a 1 m timber handle."
+},
+"manhole_shaft_middle": {
+"use": "Stack to set the depth between a street manhole and the sewer below.",
+"what": "Vertical manhole shaft section, 1.4 m bore and 3 m tall, riveted metal lining."
+},
+"map_mx": {
+"use": "Paste onto briefing room and office walls; keep it flush so the flat plane does not clip.",
+"what": "Flat printed wall map, 1.3 m wide, a single plane with no frame."
+},
+"mask_mx": {
+"use": "Hang on walls in cult rooms and dressing spaces, or leave one on a table or a body.",
+"what": "Flat face mask, 32 cm tall, five painted designs."
+},
+"matchbox": {
+"use": "Pair with ashtrays and candles on tables, bars and bedside dressing.",
+"what": "Matchbox, 9 cm, two label designs, plain box shape."
+},
+"meat": {
+"use": "Dress butcher blocks, kitchen counters and cold stores, or use as a food pickup.",
+"what": "Raw meat slab, 34 cm across, two variants."
+},
+"melee_cross_mx": {
+"use": "Use as an improvised weapon pickup, or lean it in chapels and graveyards.",
+"what": "Rough timber cross, just under a metre long, tagged as a melee weapon."
+},
+"melee_fish_skewer_mx": {
+"use": "Place as a joke melee pickup in fishing shacks, docks and scavenger camps.",
+"what": "Improvised weapon: a fish skewered on a metal rod, roughly a metre long."
+},
+"melee_stale_baguette_mx": {
+"use": "Joke melee pickup; also fine as bakery or kitchen dressing if it stays out of reach.",
+"what": "Stale baguette used as a club, 78 cm long, hard crust."
+},
+"mesh_error_mp": {
+"use": "Stand in for unbuilt props during blockout so gaps are obvious; strip before shipping.",
+"what": "Red 3D ERROR lettering, 78 cm wide, a Source-style missing model placeholder."
+},
+"metal_barrel_hr": {
+"use": "Scatter as industrial clutter or stack for waist-high cover in yards, docks and alleys.",
+"what": "Steel oil drum, 1 m tall, five paint and rust states."
+},
+"metal_barrel_mp": {
+"use": "Scatter as industrial clutter or stack for waist-high cover in yards and warehouses.",
+"what": "Steel oil drum, chest height, painted and dented, four texture variants."
+},
+"metal_crate": {
+"use": "Stack in bunker stores and loading bays, or use single as chest-high hard cover.",
+"what": "Steel shipping crate, 1.12 m cube, ribbed sides and clasps."
+},
+"metal_fence_hr": {
+"use": "Perimeter runs around yards and compounds; tile end to end and gate with wall modules.",
+"what": "Chain-link fence panel with a barbed wire top, 3.6 m wide, 3 m tall."
+},
+"metal_fence_hr_pillar": {
+"use": "Repeat between fence panels along perimeters and compound edges.",
+"what": "Metal fence post, 2.5 m tall, flat panel shape."
+},
+"metal_fence_hr_pillar_corner": {
+"use": "Place at every turn in a fence run so panels meet cleanly at right angles.",
+"what": "Square metal fence post for a corner, 30 cm thick and 2.5 m tall."
+},
+"metal_fence_hr_pillar_corner_tall": {
+"use": "Set at the corners of high perimeter fencing around compounds and depots.",
+"what": "Tall metal fence corner post, 5 m, square section, bare steel."
+},
+"metal_fence_hr_pillar_tall": {
+"use": "Carry high perimeter fencing around prisons, depots and restricted compounds.",
+"what": "Tall steel fence post, 5 m high, plain painted section."
+},
+"metal_fence_hr_tall": {
+"use": "Prison and depot perimeters the player must not climb; tiles with the shorter panel.",
+"what": "Taller chain-link fence panel with barbed wire, 3.6 m wide, 5.6 m tall."
+},
+"metal_shelf": {
+"use": "Line warehouse and store room walls; the aisles between units shape the route.",
+"what": "Steel storage racking, 3.4 m wide and 2.4 m tall, open shelves."
+},
+"military_radio": {
+"use": "Sit on command-post tables and bunker desks; works as an objective or story interact.",
+"what": "Portable military field radio, 49 cm wide, dials and handset, two skins."
+},
+"misc_tool_mx": {
+"use": "Lay on workbenches, scaffold boards and tool racks as building site dressing.",
+"what": "Flat half-metre hand tools on one boxy blank, including a battered spirit level."
+},
+"monitoring_screen_mp": {
+"use": "Bank several across security desks and control rooms; each can carry its own feed texture.",
+"what": "CRT monitoring screen, beige case with a lit display, roughly 50 cm across."
+},
+"most_comfortable_chair_mp": {
+"use": "Interrogation rooms and gag set pieces; not for ordinary dining room dressing.",
+"what": "Plain wooden chair with nails driven up through the seat, 1 m tall."
+},
+"mouse_pad_mp": {
+"use": "Lay on desks beside monitors and keyboards in offices and control rooms.",
+"what": "Mouse mat, 24 by 29 cm, flat printed pad."
+},
+"mre": {
+"use": "Stack in supply crates and bunker stores, or use as a food pickup in survival levels.",
+"what": "Sealed ration pouch, 28 cm, printed foil packaging."
+},
+"mushroom_n": {
+"use": "Cluster at tree bases, on rotting logs and in damp cave corners.",
+"what": "Small woodland mushrooms, about 20 cm tall, three cap shapes."
+},
+"nails": {
+"use": "Scatter on workbenches, in toolboxes and around half-built timber framing.",
+"what": "Small pile of loose steel nails, roughly 14 cm across."
+},
+"nails_rusty": {
+"use": "Workbenches, floorboards and demolition debris; also a hazard marker in derelict rooms.",
+"what": "Small scattered pile of rusty nails, 14 cm across, flat to the ground."
+},
+"note": {
+"use": "Pin to boards, tape to doors or leave on desks as a readable clue.",
+"what": "Single sheet of printed paper, roughly A4, flat plane."
+},
+"note_mx": {
+"use": "Drop on desks, floors and pinboards as a readable clue or note pickup.",
+"what": "Single sheet of handwritten paper, A4-sized, lying flat."
+},
+"notebook": {
+"use": "Leave on desks, bedside tables and clipboards as readable personal clutter.",
+"what": "Spiral-bound A5 notebook with a card cover, closed."
+},
+"old_mattress_mp": {
+"use": "Dump on the floors of squats, cells and basements, or prop against walls in derelict flats.",
+"what": "Old stained mattress, double size, no frame."
+},
+"old_mattress_mx": {
+"use": "Squats, cellars and alleys; drop it straight on the floor or lean it against a wall.",
+"what": "Stained old mattress, 2.6 m long, lying flat with no frame."
+},
+"open_book_mp": {
+"use": "Desks, lecterns and library tables, or on the floor in ransacked rooms.",
+"what": "Open book lying flat, 42 cm across the spread."
+},
+"package_hr": {
+"use": "Stack in post rooms, delivery vans and storerooms, or leave as a suspicious drop.",
+"what": "Brown paper-wrapped parcel with tape and a printed label, 50 cm across."
+},
+"padlock": {
+"use": "Hang on gates, lockers and chained doors to sell a locked route.",
+"what": "Steel padlock with a shackle, 13 cm, four finishes."
+},
+"paint_brush_mr": {
+"use": "Drop beside paint tins and dust sheets in decorating and workshop scenes.",
+"what": "Paint brush, wooden handle and flat bristles, 36 cm long."
+},
+"paint_can_mx": {
+"use": "Decorating clutter in half-finished rooms; stack two or three by dust sheets and ladders.",
+"what": "Metal paint tin, 25 cm tall, lid on, printed label."
+},
+"painting": {
+"use": "Hang on interior walls; tilt or drop to the floor for looted and derelict rooms.",
+"what": "Framed painting, roughly 70 by 80 cm, nine different pictures."
+},
+"panel_etx": {
+"use": "Line control rooms and machine halls; six variants let you build a whole console wall.",
+"what": "Wall control panel, 1.3 m wide, dials, switches and lit readouts."
+},
+"pc_keyboard_mp": {
+"use": "Set on office desks with a monitor, or knock askew in ransacked rooms.",
+"what": "Beige PC keyboard, 55 cm, key detail carried in the texture."
+},
+"pc_monitor_mp": {
+"use": "Set on office and lab desks; pair with keyboards and towers for period workstations.",
+"what": "CRT computer monitor, beige case with a lit screen, about 50 cm deep."
+},
+"pc_mouse_mp": {
+"use": "Office desks beside monitors and keyboards; hang one off the edge for disorder.",
+"what": "Beige computer mouse with a cable, 15 cm, two variants."
+},
+"pc_mp": {
+"use": "Under or beside desks in offices and server rooms; low detail, so keep players off it.",
+"what": "Desktop PC tower, 55 cm tall, plain textured box."
+},
+"pc_speaker_left": {
+"use": "Set beside monitors on office and bedroom desks; mirror it for the right-hand unit.",
+"what": "Small desktop PC speaker, 24 cm tall, left unit of a pair."
+},
+"pc_speaker_right": {
+"use": "Pair either side of a desk monitor in offices and bedrooms.",
+"what": "Small desktop PC speaker, 24 cm tall, plastic box with a mesh face."
+},
+"pcb": {
+"use": "Lay on repair benches and inside opened equipment; keep it flat, it has no thickness.",
+"what": "Flat printed circuit board, 24 cm long, a single textured plane."
+},
+"pen_mp": {
+"use": "Desks, clipboards and reception counters; scatter with paper for an abandoned office.",
+"what": "Plastic ballpoint pen, 19 cm long."
+},
+"pencil_mp": {
+"use": "Desk dressing next to notes and paperwork; too small to notice on its own.",
+"what": "Pencil, 24 cm long, plain hexagonal shaft."
+},
+"photo_frame_mp": {
+"use": "Dress mantelpieces, desks and shelves in homes and offices to imply an occupant.",
+"what": "Standing photo frame, 25 cm wide, two picture variants."
+},
+"pick_axe_mx": {
+"use": "Lean against mine and quarry walls, or use as a melee weapon pickup.",
+"what": "Pickaxe, steel head on a wooden haft, 85 cm long."
+},
+"pickles_jar_mp_medium": {
+"use": "Stock pantry and cellar shelving, or scatter through bunker food stores.",
+"what": "Glass jar of pickles, 25 cm tall with a metal lid."
+},
+"pickles_jar_mp_small": {
+"use": "Pantry shelves, shop aisles and cellar stores; line several up for a stocked look.",
+"what": "Small glass jar of pickles, 20 cm tall, screw lid."
+},
+"pillar": {
+"use": "Space through large rooms and car parks; breaks sightlines and gives cover corners.",
+"what": "Square structural pillar, 52 cm thick and 3 m tall, five surfaces."
+},
+"pillar_ac": {
+"use": "Grid through car parks, warehouses and undercrofts to carry ceilings and break sightlines.",
+"what": "Plain concrete column, 60 cm square and 6 m tall."
+},
+"pillar_ax": {
+"use": "Space through car parks, warehouses and undercrofts to carry the deck above.",
+"what": "Square concrete pillar, 60 cm section and 6 m tall, plain cast finish."
+},
+"pillar_ay": {
+"use": "Space through basements, car parks and open interiors to break sightlines on the 3 m grid.",
+"what": "Square rendered concrete pillar, 60 cm section, 3 m tall."
+},
+"pillar_hr": {
+"use": "Hold up warehouse and hall ceilings; space on the 4 m grid to break long sight lines.",
+"what": "Square brick column, one metre thick, six metres tall, very low poly."
+},
+"pillar_hr_broken": {
+"use": "Mark collapsed floors and shelled buildings; pairs with rubble and fallen slabs.",
+"what": "Snapped concrete pillar stub, 1.6 m tall, rebar exposed at the break."
+},
+"pillar_hs": {
+"use": "Use in large halls and hangars where a 60 cm column would look too slight for the span.",
+"what": "Heavy concrete column, 1 m square and 6 m tall, six surface variants."
+},
+"pillar_hs_broken": {
+"use": "Use in collapsed and shelled interiors where the floor above has come down.",
+"what": "Broken concrete pillar stump, 1.6 m, exposed rebar at the fracture."
+},
+"pillar_plain": {
+"use": "Use where a heavier column is wanted in halls and lobbies; it is a bare box, keep it back.",
+"what": "Plain square pillar, 80 cm section and 3 m tall, flat plastered finish."
+},
+"pillar_rg": {
+"use": "Render match for the concrete wall set; same 4 m grid spacing as the brick pillars.",
+"what": "Square rendered concrete column, one metre thick, six metres tall."
+},
+"pillar_rg_broken": {
+"use": "Same ruin dressing as the other broken pillar; mix both so the breaks do not repeat.",
+"what": "Snapped concrete pillar stub, 1.6 m tall, exposed rebar, alternate surface."
+},
+"pillar_rgx": {
+"use": "Use in single-storey rooms with 3 m ceilings; the steel detail suits industrial interiors.",
+"what": "Concrete column with steel banding, 60 cm square, 3 m tall, three variants."
+},
+"pillar_rtx": {
+"use": "Set into wall runs as a pilaster, or space through open concrete interiors.",
+"what": "Rectangular concrete pillar, 3 m tall and a metre deep, plain faces."
+},
+"pillar_rx": {
+"use": "Slot into modular wall runs as an intermediate support without eating floor space.",
+"what": "Slim square concrete pillar, 40 cm section, 3 m tall."
+},
+"pillow_mp": {
+"use": "On beds and sofas, or thrown on the floor of a ransacked bedroom.",
+"what": "Fabric pillow, 80 cm long, two cover variants."
+},
+"pills": {
+"use": "Spill beside pill bottles on bathroom shelves, med bays and bedside tables.",
+"what": "Two loose capsules, green and white, a few centimetres across."
+},
+"pills_bottle": {
+"use": "Fill bathroom cabinets and medical shelves, or use as a health pickup.",
+"what": "Plastic pill bottle with cap, 13 cm tall, six label variants."
+},
+"pills_packet": {
+"use": "Leave in bathroom cabinets and med kits, or use as a health pickup.",
+"what": "Blister packet of pills in a card sleeve, hand sized and flat."
+},
+"pine_tree_n": {
+"use": "Fill forest exteriors and treelines; mix variants and rotations to hide the repeat.",
+"what": "Pine tree, 8 m tall, bark trunk with branch cards; summer and winter bark variants."
+},
+"pipe": {
+"use": "Run up plant room and bunker walls; stack vertically for full-height service risers.",
+"what": "Three-metre vertical pipe run with joints and fittings, painted metal."
+},
+"pipe_ancle": {
+"use": "Join straight pipe runs at corners along walls and ceilings.",
+"what": "Pipe elbow, 90 degree bend, 40 cm across."
+},
+"pipe_ax": {
+"use": "Run floor to ceiling in plant rooms and shafts, or use as a vertical landmark.",
+"what": "Vertical steel pipe run, 50 cm bore and 7.3 m tall, rusted."
+},
+"pipe_bx": {
+"use": "Join straight runs at right angles in plant rooms, sewers and refinery yards.",
+"what": "Large rusted pipe elbow, 68 cm bore with two 2.3 m legs and flanged ends."
+},
+"pipe_corner": {
+"use": "Turn corners in wall-run pipework through plant rooms, tunnels and service corridors.",
+"what": "Right-angle pipe elbow, 43 cm across, painted metal."
+},
+"pipe_cross": {
+"use": "Join straight pipe runs where a service branches; sits flush to walls and ceilings.",
+"what": "Four-way pipe junction fitting, 1.3 m across, painted metal."
+},
+"pipe_cx": {
+"use": "Chain into pipelines across refinery and industrial yards; walk players under the span.",
+"what": "Rusted overhead pipe run on lattice steel trestles with concrete feet, 3 m tall."
+},
+"pipe_dx": {
+"use": "Chain across refinery and industrial exteriors as an elevated pipeline over walkways.",
+"what": "Three large rusted pipes carried on a lattice steel tower, 5.6 m tall."
+},
+"pipe_e": {
+"use": "Run along walls and ceilings in service corridors, or lay in stacks on site.",
+"what": "Straight steel pipe run, 3.6 m long and 25 cm bore, with joint collars."
+},
+"pipe_melee_mx": {
+"use": "Place as an improvised melee pickup in alleys, squats and industrial levels.",
+"what": "Length of rusted steel pipe, 73 cm, usable as a club."
+},
+"pipe_mx": {
+"use": "Small-scale detail on machinery and walls, or loose scrap in workshops and junk piles.",
+"what": "Short length of thin metal pipe, 42 cm, two finishes."
+},
+"pipe_short": {
+"use": "Stack loose in yards and building sites, or use as a short run against a wall.",
+"what": "Short pipe section, 26 cm bore, 1.2 m long."
+},
+"pipe_valve_holder_large": {
+"use": "Fit to pipe runs and tanks as an interact point, or scatter loose as workshop clutter.",
+"what": "Rusted valve handwheel on a short pipe stub, 33 cm across, three variants."
+},
+"pipes_holder": {
+"use": "Fix at intervals along wall pipe runs so the pipework reads as supported.",
+"what": "Metal pipe bracket, 60 cm wall plate with saddle clamps, no pipe."
+},
+"pipes_hr": {
+"use": "Run along corridor and plant room walls; chain sections to carry pipework across a level.",
+"what": "Straight run of wall pipes, 3 m long, painted steel on brackets."
+},
+"pipes_hr_elbow": {
+"use": "Turn a pipe run at a corner where wall-mounted services change direction.",
+"what": "Ninety-degree pipe elbow, 44 cm across, thin steel."
+},
+"pipes_hr_horizontal_middle": {
+"use": "Repeat along corridor walls and ceilings; the middle piece tiles between end caps.",
+"what": "Horizontal pipe run module, 4 m long, thin bundle on a bracket."
+},
+"pipes_hr_middle": {
+"use": "Chain along corridor and plant-room walls between end pieces to carry a services run.",
+"what": "Wall-run pipe bundle with brackets, 4 m long, middle section."
+},
+"pipes_hr_vertical_end": {
+"use": "Cap the top or bottom of a vertical pipe run against a wall.",
+"what": "Vertical pipe end piece, 1.5 m of steel pipe with a capped termination."
+},
+"pistol_mp": {
+"use": "Use as a weapon pickup, or dress desks, weapon cases and evidence tables in police scenes.",
+"what": "Semi-automatic pistol, 27 cm, dark metal with a plastic grip."
+},
+"pistol_mp_mag_empty": {
+"use": "Drop by weapons and spent brass after a firefight, or on a gun shop counter.",
+"what": "Empty black pistol magazine, 15 cm, no rounds."
+},
+"pistol_mp_mag_extended_empty": {
+"use": "Dress weapon benches and ammo crates, or drop one beside a firing position.",
+"what": "Extended pistol magazine, black polymer, empty, 21 cm long."
+},
+"pistol_mp_mag_extended_loaded": {
+"use": "Weapon pickup, or lay on desks, bodies and gun cases as a readable threat.",
+"what": "Semi-automatic pistol with a loaded extended magazine, 22 cm."
+},
+"pistol_mp_mag_loaded": {
+"use": "Use as a weapon pickup, or lay on desks, in drawers and beside bodies.",
+"what": "Semi-automatic pistol with the magazine seated, 16 cm long."
+},
+"planter_pot_mp_empty": {
+"use": "Group on windowsills, balconies and porches; stack spares in sheds and garden corners.",
+"what": "Empty terracotta planter pot, 19 cm across, no plant in it."
+},
+"planter_pot_mp_full": {
+"use": "Windowsills, office desks and reception counters; a cheap sign of an occupied room.",
+"what": "Small terracotta pot with a cactus planted in it, 23 cm tall."
+},
+"plastic_bottle_mx": {
+"use": "Litter for street corners, bins and desks; tip it over for messy interiors.",
+"what": "Plastic drinks bottle, 32 cm tall, printed label."
+},
+"plastic_bottle_mx_dirty": {
+"use": "Scatter as litter in gutters, bins and squats, or use as a scavenged water container.",
+"what": "Grimy plastic drinks bottle, 32 cm tall, label worn off."
+},
+"plastic_bottle_mx_dirty_squashed": {
+"use": "Scatter in gutters, bins and fly-tipped piles as street litter.",
+"what": "Crushed plastic drink bottle, flattened and grimed, lying on its side."
+},
+"plate_mp": {
+"use": "Set on kitchen tables, draining boards and shelves, or scatter as clutter in flats.",
+"what": "Ceramic dinner plate, 33 cm across, worn glaze."
+},
+"platform_ax": {
+"use": "Raised catwalks over yards and water, or a ramp up to a loading dock; tiles end to end.",
+"what": "Timber plank walkway on steel supports, handrail down one side, 4 m long."
+},
+"platform_b_handrail": {
+"use": "Edge walkways, catwalks and platform drops on the 4 m grid.",
+"what": "Steel handrail run, 4 m long and 1.2 m high, thin posts and rails."
+},
+"platform_bx": {
+"use": "Chain into catwalks and raised service platforms in plant rooms and refineries.",
+"what": "Steel grating deck on pipe supports, 2 by 4 m, 80 cm high."
+},
+"platform_cx": {
+"use": "Tile as a raised industrial floor, or use as a loading dock or gantry deck.",
+"what": "Ribbed steel deck panel, 2 by 4 m and 20 cm thick, with a lipped edge."
+},
+"platform_large_mx": {
+"use": "Use as a raised base for rooftop and yard set pieces, or as blockout floor over large voids.",
+"what": "Large concrete platform slab, 8 m square and 1 m thick, a plain box."
+},
+"platform_mx": {
+"use": "Raised lookouts and gun positions; the open base is walkable and reads as cover.",
+"what": "Concrete platform on four thick columns, three metres square, 6.4 m tall."
+},
+"platform_small_mx": {
+"use": "Raise sections of ground, build stepped terrain, or form the base under machinery.",
+"what": "Plain concrete platform block, 4 by 4 m and 1 m tall."
+},
+"poison_mp": {
+"use": "Use as a hazard or quest item; also dresses lab benches and chemical shelves.",
+"what": "Small glass vial of green liquid, 10 cm tall."
+},
+"police_baton_mp": {
+"use": "Use as a melee pickup, or leave on desks and in lockers in police stations.",
+"what": "Police baton, 64 cm long, black moulded shaft."
+},
+"poop_etx": {
+"use": "Scatter through sewers, animal pens and abandoned interiors to sell neglect.",
+"what": "Pile of brown animal droppings, 24 cm across."
+},
+"poop_mx": {
+"use": "Alleys, pavements and neglected yards; one or two only, at the base of walls.",
+"what": "Small dog turd, 13 cm, matte brown."
+},
+"portal_mx": {
+"use": "Set piece for labs and bunkers; use as an objective or a doorway players walk through.",
+"what": "Large rusted ring machine on a base, with access steps and a control cabinet."
+},
+"poster_cx": {
+"use": "Pin to walls and hoardings; offset a few millimetres off the surface to avoid z-fighting.",
+"what": "Flat printed poster card, 80 by 57 cm, two triangles, eight designs."
+},
+"potted_cactus_mp": {
+"use": "Set on desks, windowsills and shop counters for a bit of domestic life.",
+"what": "Small potted cactus, 27 cm tall in a terracotta pot."
+},
+"power_supply": {
+"use": "Drop among stripped computer parts on repair benches and server room floors.",
+"what": "PC power supply unit, boxy steel case 26 cm across, very low detail."
+},
+"projector": {
+"use": "Cinema booths, lecture rooms and cult halls; aim it at a screen or a bare wall.",
+"what": "Vintage twin-reel film projector on a folding tripod, 1.5 m tall."
+},
+"rainwater_downpipe_hl_end": {
+"use": "Run down building facades from gutter to ground; this piece caps the bottom.",
+"what": "Metal rainwater downpipe, 2.84 m section with an end fitting."
+},
+"rainwater_downpipe_hl_middle": {
+"use": "Stack down building exteriors between top and bottom pieces; often used as a climb route.",
+"what": "Metal rainwater downpipe, 3 m middle section, 20 cm across."
+},
+"rainwater_pipe_hl_end": {
+"use": "Fix flat to exterior walls where a roof gutter turns down into a downpipe.",
+"what": "Steel rainwater pipe, 3 m vertical drop with a 4 m horizontal arm at the top."
+},
+"rainwater_pipe_hl_middle": {
+"use": "Run down building facades between top and bottom sections; keep it flush to the wall.",
+"what": "Rainwater downpipe, 4 m middle section, rusted metal with wall brackets."
+},
+"rainwater_pipe_hl_singular": {
+"use": "Fix along building eaves and down exterior walls; tiles with the 4 m wall modules.",
+"what": "Metal guttering with a downpipe at one end, 4 m run, 3 m drop."
+},
+"ramp_platform_slim_mx": {
+"use": "Connect ground level to the 1 m platform blocks; wide enough for one person.",
+"what": "Narrow concrete ramp, 4 m long, rising 1 m."
+},
+"ramp_platform_wide_mx": {
+"use": "Join floor levels in loading bays and car parks where a vehicle-width slope is needed.",
+"what": "Plain concrete ramp, 3.7 m wide, rising 1 m over 4.6 m."
+},
+"rolling_pin_mx": {
+"use": "Leave on kitchen counters and bakery tables, or use as an improvised weapon.",
+"what": "Wooden rolling pin, 75 cm, plain turned timber."
+},
+"roof_bx": {
+"use": "Cap 4 m building modules; tile several for a roofline over sheds and outbuildings.",
+"what": "Hipped corrugated metal roof section on a concrete slab, 4 m square."
+},
+"roof_bx_corner": {
+"use": "Cap the corners of warehouse and shed roofs; the skylight gives an interior light shaft.",
+"what": "Corrugated metal roof corner section with a skylight panel, 4.4 m square."
+},
+"roof_bx_side": {
+"use": "Cap warehouse and shed builds; the side variant closes the run at the gable end.",
+"what": "Pitched corrugated roof section with a skylight panel, 4 m module, side piece."
+},
+"roof_hr_middle_angle": {
+"use": "Tile along a pitched roof between hip and gable ends on houses and outbuildings.",
+"what": "Sloped tiled roof section with plank underside, 4 m square, middle piece."
+},
+"roof_hr_side_angle": {
+"use": "Cap the sloping side of a pitched roof so the tile run has a finished edge.",
+"what": "Angled roof edge trim, a 4 m run of tiled verge, 80 cm deep."
+},
+"roof_hr_side_angle_corner": {
+"use": "Close off the corners where roof runs meet; a filler piece, not a standalone prop.",
+"what": "Small angled roof corner trim, 80 cm across, tiled finish."
+},
+"roof_hr_side_angle_edge": {
+"use": "Finish the open edges of the modular roof panels so the roof does not read as cut off.",
+"what": "Thin angled corrugated roof edge strip, 4 m long, verge trim."
+},
+"roof_mh": {
+"use": "Tile across building tops on the 4 m grid; mix surfaces for a scruffier skyline.",
+"what": "Pitched roof section, 4 m module, three surfaces including tin and planks."
+},
+"roof_mh_a": {
+"use": "Cap warehouses and barns in one piece rather than tiling small roof sections.",
+"what": "Large hipped corrugated metal roof, 8 by 12 m, timber eaves, four variants."
+},
+"roof_mh_b": {
+"use": "Cap a whole building block; join variants for longer ridges over warehouses.",
+"what": "Large hipped roof section, 8 by 12 m, tiled top with exposed eaves and rafters."
+},
+"roof_mx": {
+"use": "Cap houses and low buildings on the 4 m grid; add corner trims to close the ridge.",
+"what": "Pitched roof section, 4 m square, tiled top on a concrete edge."
+},
+"roof_small_hr": {
+"use": "Awnings over doors and market stalls, or shed roofs on small outbuildings.",
+"what": "Small corrugated metal lean-to roof panel, 4 m by 1.4 m, slight pitch."
+},
+"rubber_duck_mx": {
+"use": "Bathroom dressing on tubs and sinks; also serves as a hidden easter egg.",
+"what": "Rubber duck, 17 cm, yellow, hand sized."
+},
+"rubber_hammer_mx": {
+"use": "Lay on workbenches and in toolboxes; doubles as a light melee pickup.",
+"what": "Rubber mallet, 52 cm, dark head on a metal shaft."
+},
+"rubiks_cube_mx": {
+"use": "Set on desks, shelves and bedside tables as small personal clutter.",
+"what": "Plain cube, 10 cm, with a Rubik's cube printed on all six faces."
+},
+"rusty_crowbar_mx": {
+"use": "Place as a melee or prying pickup near boarded doors, crates and maintenance areas.",
+"what": "Rusted steel crowbar, a metre long, hooked and flattened ends."
+},
+"saw_blade": {
+"use": "Hang on workshop walls or lean against benches; also works as a trap or hazard piece.",
+"what": "Circular saw blade, 59 cm across, toothed steel disc."
+},
+"scanner": {
+"use": "Mount beside secure doors and lifts as the thing players need a keycard for.",
+"what": "Wall card reader, 30 by 41 cm, dark screen with lit red and green indicators."
+},
+"scrap_metal_mx": {
+"use": "Scatter in scrapyards, rubble piles and collapse sites, or use as a crafting pickup.",
+"what": "Twisted sheet-metal scrap, 35 cm across, rusted, three variants."
+},
+"screen_etx_partial": {
+"use": "Mount into control walls and desk banks, or stack several as a monitoring station.",
+"what": "Chunky industrial monitor, grey metal bezel, dark screen, finned back."
+},
+"screen_etx_stand": {
+"use": "Set on desks and consoles in labs and control rooms beside terminals and keyboards.",
+"what": "Flat monitor on a stand, lit screen, about 47 cm wide."
+},
+"screwdriver_mp": {
+"use": "Toolboxes, workbenches and glove compartments; scatter a couple across a repair scene.",
+"what": "Screwdriver, 27 cm, flat and cross head variants."
+},
+"seam_hl": {
+"use": "Cover the joins between modular wall and floor pieces where the seam would show.",
+"what": "Thin metal angle trim, 4 m long, plain worn finish."
+},
+"seam_hr": {
+"use": "Span between columns as a structural beam, or lay fallen across rubble in ruins.",
+"what": "Precast concrete girder, 8 m long, I-section, weathered grey."
+},
+"shed_ax": {
+"use": "Line yards, allotments and depot edges; four variants change the doors and walls.",
+"what": "Long brick outbuilding, 8.6 by 2.6 m, single storey with plain doors."
+},
+"shelf_mp": {
+"use": "Line storerooms, cellars and shops; load with cans and boxes, or leave bare for looted rooms.",
+"what": "Wooden shelving unit, 1.2 m wide and 1.7 m tall, several plank shelves."
+},
+"shelf_mx": {
+"use": "Line storerooms, warehouses and cellars; some variants come stocked, some come bare.",
+"what": "Metal shelving unit with grated shelves, 1 m wide, 1.8 m tall, many variants."
+},
+"shipping_container_mx": {
+"use": "Stack in ports and yards to build cover, corridors and rooftops; 12 triangles each.",
+"what": "Shipping container, 5.4 m long, three liveries, all detail in the texture."
+},
+"shipping_container_mx_hollow": {
+"use": "Stack in docks and yards; the hollow interior lets the player walk in and take cover.",
+"what": "Forty-foot shipping container, hollow inside, 12 m long, three paint jobs."
+},
+"shotgun_ammo": {
+"use": "Set on shelves and tables near shotguns, or use as an ammo pickup.",
+"what": "Loose shotgun shells, plastic hulls with brass bases, in a small group."
+},
+"shovel_mx": {
+"use": "Lean against sheds, spoil heaps and graves, or place as a digging tool and melee pickup.",
+"what": "Long-handled shovel, nearly 2 m, wooden shaft and steel blade."
+},
+"sickle_mx": {
+"use": "Farm sheds, barns and tool walls; also a melee pickup in rural levels.",
+"what": "Hand sickle with a curved blade and a wooden grip, 48 cm."
+},
+"side_doorway": {
+"use": "Offset entrances so rooms do not all connect through the middle of the wall.",
+"what": "Wall section with an open doorway to one side, 4 m wide and 3 m tall."
+},
+"sign": {
+"use": "Fix to bunker and industrial walls at eye height to label doors, hazards and rooms.",
+"what": "Flat metal sign plate, 26 by 39 cm, four printed warnings."
+},
+"signal_receiver_etx": {
+"use": "Set on tech benches and comms racks, or use as a tracked objective device.",
+"what": "Small signal receiver unit, plastic case with a lit readout behind glass."
+},
+"smartphone_mp": {
+"use": "Leave on desks, bedside tables and car seats, or use as a small quest pickup.",
+"what": "Smartphone, flat black slab with a screen, hand-sized."
+},
+"smartphone_mp_broken": {
+"use": "Drop by bodies, on desks and in gutters where something went wrong recently.",
+"what": "Smartphone with a cracked screen, dark glass face."
+},
+"soap_mx": {
+"use": "Sinks, shower trays and washroom shelves in barracks and bathrooms.",
+"what": "Bar of soap, 24 cm long, worn edges, two variants."
+},
+"sofa": {
+"use": "Anchor living rooms, waiting areas and squats; 16 variants cover a whole block of flats.",
+"what": "Three-seat sofa, 2.2 m wide, fabric over a wood frame, many colourways."
+},
+"speaker_mx": {
+"use": "Mount high on walls and posts, or stack a pair at the side of a stage.",
+"what": "Boxy PA speaker cabinet, half a metre, metal grille over a plastic case."
+},
+"sponge_mp": {
+"use": "Place by sinks and draining boards in kitchens, bathrooms and utility rooms.",
+"what": "Kitchen sponge, 14 cm, two-tone scouring pad."
+},
+"spoon_mp": {
+"use": "Kitchen drawers, canteen trays and camp cooking sets; scatter with plates and tins.",
+"what": "Metal spoon, 27 cm, plain stem."
+},
+"spring_mx_large": {
+"use": "Machine shop clutter for benches and floors, or a loose part in wrecked machinery.",
+"what": "Coil spring, 28 cm tall, bare steel."
+},
+"spring_mx_small": {
+"use": "Scatter on workbenches and machine floors, or use as a small salvage component.",
+"what": "Coil spring, 14 cm tall and 7 cm across, bare steel."
+},
+"stairs": {
+"use": "Link floors on a 4 m grid; add rails and landings separately if needed.",
+"what": "Plain concrete stair flight, 4 m run rising 1.7 m, no handrails."
+},
+"stairs_concrete": {
+"use": "Link floors in bunkers, car parks and stairwells; check the top landing lines up with the slab.",
+"what": "Concrete stair flight, 2 m wide, climbing 3.2 m over a 4 m run."
+},
+"stairs_mp": {
+"use": "Connect floors in modular buildings; matches the 3 m storey height of the wall set.",
+"what": "Concrete stair flight, 4 m wide, rising 3.2 m over six metres, no rail."
+},
+"stairs_wood": {
+"use": "Connect storeys in houses and mills; add a separate handrail, as none is modelled.",
+"what": "Straight wooden staircase, 4 m run climbing 3.2 m, no handrail."
+},
+"stand_mx": {
+"use": "Line roadsides and checkpoints as a vehicle barrier; the arch reads as a mounting frame.",
+"what": "Concrete barrier plinth with a rusted steel arch above, 2.4 m wide, 1.9 m tall."
+},
+"stone": {
+"use": "Scatter across hillsides and riverbeds, or use to close off the edges of a map.",
+"what": "Rough grey boulders, roughly 2.5 m across, five shapes."
+},
+"stool_mx": {
+"use": "Tuck under workbenches and kitchen tables, or leave in sheds and cellars as floor clutter.",
+"what": "Low wooden step stool, 67 cm long, hand hole cut in the seat."
+},
+"storage_tank_mx": {
+"use": "Fuel farms, plant rooms and yard corners; line a few up along a factory wall.",
+"what": "Horizontal steel storage tank on concrete supports, 4.5 m long."
+},
+"structure_piece_rg": {
+"use": "Landmark for construction sites and ruined skylines; far too big for interiors.",
+"what": "Unfinished building core, 15 m tall brick shaft with a deck and column stubs."
+},
+"supply_box": {
+"use": "Stack in storerooms and supply dumps; twelve triangles, so use it for bulk fill.",
+"what": "Plain taped cardboard box with stencilled markings, 60 by 30 by 30 cm."
+},
+"supply_crate": {
+"use": "Stack in stores and camps, or place as a lootable supply point.",
+"what": "Open wooden supply crate packed with tins and bottles, knee height."
+},
+"supply_crate_1_empty": {
+"use": "Stack in markets, cellars and storerooms; nest a few and fill them with food props.",
+"what": "Shallow open slatted wooden crate, 67 cm long, empty."
+},
+"supply_crate_2_empty": {
+"use": "Market stalls, storerooms and back yards; stack them or tip one over as clutter.",
+"what": "Open slatted wooden crate, empty, 67 cm long, dark stained timber."
+},
+"supply_crate_3_empty": {
+"use": "Stack in stores and depots, or leave open and empty to show the place was stripped.",
+"what": "Open slatted wooden crate, painted green, empty, 67 cm long and shallow."
+},
+"supply_crate_4_empty": {
+"use": "Stack in markets, cellars and store rooms; the open top suits filling with loose props.",
+"what": "Shallow open-topped slatted crate, 67 cm wide, dark painted timber, empty."
+},
+"supply_crate_empty": {
+"use": "Stack as storage clutter, or leave open beside a looted supply drop.",
+"what": "Empty wooden supply crate, shallow open box of bare planks."
+},
+"suppressor_mp": {
+"use": "Lay beside pistols on tables and in weapon cases, or use as an attachment pickup.",
+"what": "Pistol suppressor, black cylinder, 14 cm long."
+},
+"sword_mp": {
+"use": "Wall displays, museum cases and cult altars; also a melee pickup.",
+"what": "Straight double-edged sword with a crossguard, one metre long."
+},
+"syringe_mp": {
+"use": "Med bay trays, drug dens and field kits; small pickup for health items.",
+"what": "Syringe, 18 cm, clear barrel and needle."
+},
+"table_large": {
+"use": "Anchor mess halls, briefing rooms and kitchens; a strong surface for prop arrangements.",
+"what": "Large wooden table, 1.7 by 0.9 m, waist height, several timber finishes."
+},
+"tank_system_mx": {
+"use": "Stand in plant rooms, refinery yards and boiler halls as heavy machinery.",
+"what": "Industrial steel tank unit, roughly 2.5 m each way, riveted plate and fittings."
+},
+"tape_worm": {
+"use": "Use as a small crawling enemy or a corpse prop in sewers, caves and infested interiors.",
+"what": "Fleshy red-brown worm creature, 85 cm long, tapered and segmented."
+},
+"test_machine_mx": {
+"use": "Factory floors and plant rooms; at 3.5 m tall it blocks sight lines and works as cover.",
+"what": "Rusted industrial machine, boxed base with a vertical tank and a curved pipe."
+},
+"tin_can_mp_rusty": {
+"use": "Scavenger litter for camps, bunkers and shelves; reads as long since eaten.",
+"what": "Rusted tin can with the lid peeled back, empty, 22 cm tall."
+},
+"tire": {
+"use": "Stack in garages and scrapyards, or lay flat as roadside and racetrack clutter.",
+"what": "Car tyre, 64 cm across, worn tread, two variants."
+},
+"toilet_cabin_mp": {
+"use": "Drop on building sites, festival grounds and depot corners, singly or in a row.",
+"what": "Portable toilet cabin, metal panelled box a little over head height."
+},
+"toilet_mp": {
+"use": "Fit into bathrooms and cell blocks; place against a wall so the cistern sits flush.",
+"what": "Ceramic toilet with cistern, standard size, stained."
+},
+"toolbox_mx": {
+"use": "Workbenches, van interiors and repair scenes; ground clutter beside machinery.",
+"what": "Metal toolbox with a carry handle, 60 cm long, lid closed."
+},
+"toy_brick": {
+"use": "Scatter in small handfuls on children's bedroom floors and around toy boxes.",
+"what": "Interlocking toy brick, 6 cm long, moulded studs, four colours."
+},
+"trash": {
+"use": "Lay on floors in corners, bunkers and alleys; nearly flat, so it sits on any surface.",
+"what": "Flat scatter of torn paper and card litter over a 1 m patch."
+},
+"tree": {
+"use": "Plant across woodland and hillsides; mix live and dead variants over a spread.",
+"what": "Pine trees up to 8 m tall, some with dead bark and bare branches."
+},
+"tree_log": {
+"use": "Lay across forest paths as a low obstacle, or stack at sawmills and woodpiles.",
+"what": "Felled tree trunk, 3.3 m long, bark on, with a broken branch stub and cut ends."
+},
+"tree_stump": {
+"use": "Forest floors and cleared ground; also a seat or a low obstacle on woodland paths.",
+"what": "Cut tree stump with visible rings and bark, 90 cm across, knee high."
+},
+"tunnel": {
+"use": "Chain into service tunnels and metro runs; 18k triangles, so keep the runs short.",
+"what": "Concrete tunnel section, 6 m run and 3 m wide, cables and fittings on the walls."
+},
+"tunnel_ancle": {
+"use": "Use to turn a tunnel run; chain straight sections into it for sewer and bunker routes.",
+"what": "Ninety-degree corner section of arched concrete tunnel, 4.75 m across."
+},
+"tunnel_entrance_platform": {
+"use": "Set at the mouth of a tunnel or shaft as a landing before the drop.",
+"what": "Small metal grating platform, 1.4 by 2 m and 20 cm thick."
+},
+"tunnel_hole": {
+"use": "Cap the end of a tunnel run, or set into bunker walls as the way into a service passage.",
+"what": "Concrete wall panel, 4 m wide and 3 m tall, with an arched tunnel mouth through it."
+},
+"tunnel_junction_four_way": {
+"use": "Crossroads in sewer and bunker networks; connects four straight tunnel runs.",
+"what": "Concrete four-way tunnel junction, six metres square, metal floor and drains."
+},
+"tunnel_junction_three_way": {
+"use": "Branch bunker and sewer runs; the junction is where you place the choice of route.",
+"what": "Concrete tunnel junction, three ways, 6 m across with a floor grate."
+},
+"tunnel_manhole_shaft_beginning": {
+"use": "Start a sewer descent under a street manhole; cap the top with the surface cover.",
+"what": "Concrete manhole shaft head joining a tunnel, 3.5 by 6 m, 3 m tall."
+},
+"tunnel_manhole_shaft_end": {
+"use": "Cap the end of a sewer run where a street manhole drops into the tunnel.",
+"what": "Sewer tunnel end with a manhole shaft rising out of it, concrete and metal."
+},
+"tunnel_mp_cross_tee": {
+"use": "Join tunnel runs at a T or crossroads; short sightlines make it a natural ambush point.",
+"what": "Tunnel junction module, 6 m square and 2.9 m high, plastered walls, metal floor."
+},
+"tunnel_mp_elbow": {
+"use": "Turn a corridor run in bunkers and service tunnels; snaps to the 4 m module grid.",
+"what": "Ninety-degree corridor tunnel corner, 4 x 4 m, metal floor, very low poly."
+},
+"tunnel_mp_straight": {
+"use": "Cheap tiling piece for long service corridors; 12 triangles, so repeat it freely.",
+"what": "Straight tunnel section, 4 m run and 2 m wide, metal floor, plain walls."
+},
+"tunnel_mp_straight_inclined": {
+"use": "Link tunnel levels where a corridor has to climb; joins standard 2 m straight sections.",
+"what": "Inclined straight tunnel section, 2 m wide, 4 m long, rising 3.9 m."
+},
+"tunnel_mp_tee": {
+"use": "Branch a service tunnel in three directions; join to straight tunnel sections.",
+"what": "Tunnel T-junction, 6 by 4 m, metal floor and plain walls, 2.9 m headroom."
+},
+"tunnel_straight": {
+"use": "Chain end to end for bunker service corridors; break the runs with junction modules.",
+"what": "Straight tunnel section, 6 m long and 2.7 m high, concrete walls on a metal floor."
+},
+"tunnel_straight_down": {
+"use": "Main runs of sewer and bunker tunnels; tile end to end between junction pieces.",
+"what": "Straight arched concrete tunnel section, six metres long, metal floor."
+},
+"tv_mp": {
+"use": "Corners of living rooms, bars and security offices; also stacks as e-waste.",
+"what": "CRT television on a stand, about 80 cm tall, plastic case, three variants."
+},
+"tv_remote_mp": {
+"use": "Leave on sofas, coffee tables and floors in living rooms as small domestic dressing.",
+"what": "Television remote control, 29 cm, dark plastic."
+},
+"tv_table": {
+"use": "Place against living room walls with a set on top, or use as generic low storage.",
+"what": "Wooden TV stand with open shelves, waist height, several timber finishes."
+},
+"underwear_mp": {
+"use": "Scatter through squats, bedrooms and laundry piles as personal clutter.",
+"what": "Discarded pair of underwear, lying flat, 44 cm across."
+},
+"van": {
+"use": "Park in alleys, driveways and lay-bys; big enough to block a road or hide a spawn.",
+"what": "Rusted panel van, 6.3 m long, no windows in the rear body."
+},
+"vape_mp": {
+"use": "Desk and pocket dressing in modern interiors; too small to read at a distance.",
+"what": "Vape pen, 16 cm, slim cylinder."
+},
+"vending_machine": {
+"use": "Stand in lobbies, corridors and break rooms; blocks movement and reads as an interact.",
+"what": "Drinks vending machine, 2 m tall, glass front, plastic body."
+},
+"vent": {
+"use": "Fix to walls and ceilings in service areas, or mark a crawl route entrance.",
+"what": "Wall vent grille, 80 cm square, thin louvred metal plate."
+},
+"vent_mp": {
+"use": "Fix to corridor and bathroom walls at floor or ceiling level; keep it flush, it is a plate.",
+"what": "Flat wall vent grille, 33 cm wide, painted louvres on a thin plate."
+},
+"vhs_tape": {
+"use": "Shelves, TV cabinets and cardboard boxes; a stack dates an interior to the nineties.",
+"what": "VHS cassette in a black shell, printed label."
+},
+"walkie_talkie": {
+"use": "Leave on desks, belts and crates in guard posts; works as a story pickup.",
+"what": "Handheld radio, 36 cm including the aerial, two liveries."
+},
+"wall": {
+"use": "Standard 4 m bay for building interior rooms; three finishes for different room types.",
+"what": "Interior wall bay, 4.09 m wide and 3 m tall, plaster and painted timber."
+},
+"wall_1_half": {
+"use": "Fill the leftover gap when a 4 m wall run does not divide evenly.",
+"what": "Half-width interior wall panel, 2 m wide and room height, plain plaster."
+},
+"wall_1_rounded_corner": {
+"use": "Turn corners in modular interior wall runs where a square join would read too hard.",
+"what": "Interior corner wall module, 4 m on each leg and 3 m tall, rounded inside corner."
+},
+"wall_2_half": {
+"use": "Close out modular room runs and make offsets where a full 4 m wall overshoots.",
+"what": "Half-width plain interior wall, 2.1 m wide, 3 m tall."
+},
+"wall_2_rounded_corner": {
+"use": "Turn modular interior wall runs 90 degrees without a hard seam at the corner.",
+"what": "Interior corner wall, 4 m legs and 3 m tall, rounded outer edge."
+},
+"wall_3_half": {
+"use": "Filler bay for rooms that do not divide evenly into 4 m; pairs with the doorway half.",
+"what": "Half-width plain interior wall, 2.06 m wide and 3 m tall."
+},
+"wall_box": {
+"use": "Fix at chest height in plant rooms and corridors; use as a power interactable.",
+"what": "Wall electrical box, dark metal front with breaker rows and a red label."
+},
+"wall_half": {
+"use": "Fill part-width gaps in modular wall runs, or box in short alcoves and cupboards.",
+"what": "Half-width interior wall panel, 2 m wide and 3 m tall, plain plastered."
+},
+"wall_hr": {
+"use": "The workhorse wall of the brick set; tile on the 4 m grid for industrial interiors.",
+"what": "Plain brick wall module, four metres wide, three metres tall, three finishes."
+},
+"wall_hr_double": {
+"use": "Enclose halls and warehouses in one piece instead of stacking two storeys of wall.",
+"what": "Double-height wall section, 4 m wide and 6 m tall, plain concrete."
+},
+"wall_hr_hole": {
+"use": "Use for breach points and shell damage; gives the player a route through a solid wall.",
+"what": "Concrete wall bay, 4 m by 3 m, blown open with exposed rebar, two hole shapes."
+},
+"wall_hr_m": {
+"use": "Build facades on a 4 m grid; one piece covers both storeys of a small building.",
+"what": "Two-storey exterior wall section, 4 m wide and 6 m tall, with a window opening."
+},
+"wall_hr_m1a": {
+"use": "Turn corners in exterior brick wall runs; matches the flat 4 m panels in the same set.",
+"what": "Brick corner wall module, 4 m on each leg and 3 m tall."
+},
+"wall_hr_m2a": {
+"use": "Turn a corner in one piece rather than butting two wall modules; matches the brick set.",
+"what": "L-shaped brick corner wall, four metres each way, three metres tall."
+},
+"wall_hr_t": {
+"use": "Branch a partition off a main wall run without having to cut geometry.",
+"what": "Wall section with a T junction stub, 4 m wide and 3 m tall."
+},
+"wall_hs": {
+"use": "Base bay for industrial and bunker rooms; chain with doorway and window variants.",
+"what": "Plain concrete wall bay, 4 m wide, 3 m tall, 40 cm thick, two skins."
+},
+"wall_hs_double": {
+"use": "Run along a 4 m grid for two-storey rooms, yards and warehouse shells.",
+"what": "Plain brick wall slab, 4 m wide and 6 m tall, flat weathered faces."
+},
+"wall_hs_hole": {
+"use": "Use as the culvert the player crawls through between areas; the pipe end sticks out one side.",
+"what": "Brick wall panel, 4 m wide and 3 m tall, with a wide concrete pipe through it."
+},
+"wall_hs_m": {
+"use": "Factory and warehouse exteriors where the interior needs a full-height window for light.",
+"what": "Brick wall two storeys tall with a multi-pane industrial window, 4 x 6 m."
+},
+"wall_hs_m1a": {
+"use": "Turn exterior brick wall runs at a corner; the legs match the standard 4 m grid.",
+"what": "Brick corner wall, two 4 m legs, 3 m tall, rounded outside edge."
+},
+"wall_hs_m2a": {
+"use": "Turn a brick wall run through 90 degrees without hand-fitting two flat bays together.",
+"what": "Brick wall corner, two 4 m faces meeting at a right angle, 3 m tall."
+},
+"wall_hs_t": {
+"use": "Use in a 4 m brick wall run where panels need to key into each other.",
+"what": "Brick wall panel, 4 by 3 m, with stepped ends that interlock with the next piece."
+},
+"wall_peace": {
+"use": "Use as a low boundary wall or partition; it is a bare box, so keep detail props in front.",
+"what": "Plain concrete wall block, 4 m wide and 2.2 m tall, recessed panel on one face."
+},
+"wall_plain": {
+"use": "Cheap filler wall for bunker and interior blockouts where no detail is ever seen.",
+"what": "Plain concrete wall module, four metres wide, three metres tall, twelve tris."
+},
+"wall_rg": {
+"use": "The default straight run for modular rooms and building exteriors.",
+"what": "Plain wall section, 4 m wide and 3 m tall, two surfaces."
+},
+"wall_rg_angle": {
+"use": "Use where a wall run has to step or change height; the plain face suits industrial sets.",
+"what": "Plain concrete wall bay, 4 m wide and 4 m tall, stepped at one end."
+},
+"wall_rg_double": {
+"use": "Run along a 4 m grid for two-storey industrial shells and yard walls.",
+"what": "Precast concrete panel wall, 4 m wide and 6 m tall, visible panel seams."
+},
+"wall_rg_hole": {
+"use": "The rendered match for the brick version; use as a crawl-through culvert between areas.",
+"what": "Rendered wall panel, 4 m wide and 3 m tall, with a wide concrete pipe through it."
+},
+"wall_rg_m": {
+"use": "Render variant of the two-storey window wall; mix with the brick one along a facade.",
+"what": "Grey rendered wall two storeys tall with a tall industrial window, 4 x 6 m."
+},
+"wall_rg_m1a": {
+"use": "Corner piece matching the plain wall run; keeps the surface consistent round the turn.",
+"what": "Corner wall section, two 4 m legs, 3 m tall, plain concrete."
+},
+"wall_rg_m2a": {
+"use": "Turn a concrete wall run through 90 degrees; matches the rest of the rg wall family.",
+"what": "Concrete wall corner, two 4 m faces meeting at a right angle, 3 m tall."
+},
+"wall_rg_t": {
+"use": "Use in a 4 m concrete wall run where panels need to key into each other.",
+"what": "Concrete panel wall, 4 by 3 m, with stepped ends that interlock with the next."
+},
+"wall_round": {
+"use": "Build round bunker chambers and silo interiors; several in sequence close a full circle.",
+"what": "Curved concrete wall module, 4 m across each leg and 3 m tall, thin section."
+},
+"wall_rounded_corner": {
+"use": "Round off corridor corners and lobby walls where a sharp right-angle join looks wrong.",
+"what": "Curved corner wall, 4.1 m each way, three metres tall, four finishes."
+},
+"wall_rtx": {
+"use": "Split industrial spaces where you want to see and shoot through but not walk through.",
+"what": "Wall section with mesh grille panels between steel mullions, 4 by 3 m."
+},
+"wall_rx": {
+"use": "Set into rx wall runs as a pilaster, or stand alone to carry a 3 m ceiling.",
+"what": "Fluted concrete column, 60 cm square and 3 m tall, three surface variants."
+},
+"wall_rx_1_height": {
+"use": "Use as a parapet, planter edge or waist-high cover across an open floor.",
+"what": "Low plain wall slab, 4 m wide and 1 m tall, flat concrete faces."
+},
+"wall_rx_1_height_2_width": {
+"use": "Cap off part-height wall runs, or place as waist-high cover along corridors and yards.",
+"what": "Low rendered wall stub, 2 m wide and 1 m tall, half width and a third height."
+},
+"wall_rx_1_width": {
+"use": "Patch the gaps left when 4 m wall modules do not divide into a room length.",
+"what": "Quarter-width wall filler, one metre wide, three metres tall, six tris."
+},
+"wall_rx_1_width_3_height": {
+"use": "Patch the gaps left when the 4 m wall grid does not divide evenly into a room.",
+"what": "Quarter-width, third-height wall filler, 1 m square and 40 cm thick."
+},
+"wall_rx_2_height": {
+"use": "Use as a parapet or chest-high divider; also stacks under a full bay for taller runs.",
+"what": "Half-height concrete wall, 4 m wide and 2 m tall, 40 cm thick."
+},
+"wall_rx_2_height_2_width": {
+"use": "Fill part bays in a 4 m wall grid, or use as a standalone chest-high barrier.",
+"what": "Half-width, part-height wall slab, 2 m square, plain concrete faces."
+},
+"wall_rx_m1a": {
+"use": "Turn corners in the rendered modular wall set; pairs with its flat 4 m panels.",
+"what": "Rendered concrete corner wall module, 4 m on each leg and 3 m tall."
+},
+"wall_rx_m1a_1_height": {
+"use": "Low corner walls and parapets; stack under a full corner wall or use alone as cover.",
+"what": "L-shaped corner wall at a third height, four metres each way, one metre tall."
+},
+"wall_rx_m1a_2_height": {
+"use": "Low corner for yard walls and half-height partitions; players can see over it.",
+"what": "Corner wall section, two 4 m legs, cut down to 2 m tall."
+},
+"wall_rx_m2a": {
+"use": "Turn an rx wall run through 90 degrees; keeps panel joints lining up round the corner.",
+"what": "Concrete wall corner, two 4 m faces meeting at a right angle, 3 m tall."
+},
+"wall_rx_m2a_1_height": {
+"use": "Turn a low wall run through an angle, or use as an angled waist-high barrier.",
+"what": "Low concrete wall in a shallow chevron, 1 m tall on a 4 m square footprint."
+},
+"wall_rx_m2a_2_height": {
+"use": "Use for low-ceilinged rooms and half-height boundary walls in the same modular set.",
+"what": "Rendered concrete corner wall module, 4 m legs, cut down to 2 m tall."
+},
+"wall_top_part_hr": {
+"use": "Sit on top of a 3 m wall to reach a five-metre storey height in taller halls.",
+"what": "Upper wall section, four metres wide, two metres tall, three finishes."
+},
+"wall_top_part_hs": {
+"use": "Stack on top of a standard wall to raise a room's height in 2 m steps.",
+"what": "Upper wall infill strip, 4 m wide and 2 m tall, three surfaces."
+},
+"wall_top_part_rg": {
+"use": "Cap roof edges and boundary walls, or stack above a full bay to raise a wall run.",
+"what": "Concrete parapet wall, 4 m wide and 2 m tall, rusted metal cap, three variants."
+},
+"wall_tunnel_hole": {
+"use": "Use where a pipe or crawl tunnel breaks through a wall between two areas.",
+"what": "Wall section with a round tunnel opening punched through it, room height."
+},
+"wardrobe_mp": {
+"use": "Line bedroom and dormitory walls, or shove across doorways as a barricade in besieged flats.",
+"what": "Wooden wardrobe, 1.34 m wide and 2.1 m tall, worn veneer and metal handles."
+},
+"warehouse_hl": {
+"use": "Drop in as a complete building on industrial estates; too big for interior dressing.",
+"what": "Whole corrugated metal warehouse shell, 12.5 m long, 8 m tall."
+},
+"warehouse_hl_frame_piece": {
+"use": "Repeat along a warehouse shell to build the skeleton before cladding it.",
+"what": "Steel warehouse frame bay, 8.6 m wide and 7.6 m tall, portal truss."
+},
+"warehouse_hs_roof": {
+"use": "Tile over warehouse shells; the skylights drop shafts of light onto the floor below.",
+"what": "Corrugated metal warehouse roof, 8 m square, with glazed skylight strips."
+},
+"warehouse_mx": {
+"use": "Set as the main block of an industrial street; five variants change the facade.",
+"what": "Large brick warehouse shell, 8.8 by 17.7 m and nearly 9 m tall, with signage."
+},
+"water_barrel": {
+"use": "Stand in bunker stores, camps and yards, or use single as chest-high cover.",
+"what": "Blue plastic water barrel with a black lid, 73 cm across and chest high."
+},
+"water_tower_hm": {
+"use": "Skyline landmark for towns and industrial sites; visible from most of a level.",
+"what": "Steel water tower on a lattice frame, 23.5 m tall, with an access ladder."
+},
+"wheat": {
+"use": "Scatter across fields and verges in dense patches; flat planes, so avoid low angles.",
+"what": "Clump of wheat on crossed billboard planes, about 1.2 m tall."
+},
+"window_1_double": {
+"use": "Use on house and office exteriors where you want a wide opening onto the street.",
+"what": "Wall bay with a double window, 4.09 by 3 m, wooden frame, emissive glass."
+},
+"window_1_single": {
+"use": "Slot into a 4 m wall run for domestic and office exteriors.",
+"what": "Wall section with a single glazed window in a painted frame, room height."
+},
+"window_1_single_frame_only": {
+"use": "Use where the window should read as empty; add glass or bars as separate pieces.",
+"what": "Wall panel, 4 m wide and 3 m tall, bare window opening with the frame only."
+},
+"window_1_single_no_glass": {
+"use": "Derelict buildings and blown-out facades where you want to see and shoot through.",
+"what": "Wall module with a single empty window opening, 4.1 m wide, no glass."
+},
+"window_2_double": {
+"use": "House and shopfront exteriors; the emissive glass reads as lit rooms from outside.",
+"what": "Wall section with a double timber window, 4 m wide and 3 m tall, glass lit."
+},
+"window_2_single": {
+"use": "Standard exterior bay for domestic rooms; alternate with the double for facade rhythm.",
+"what": "Wall bay with a single window, 4.09 by 3 m, painted white timber frame."
+},
+"window_2_single_frame_only": {
+"use": "Use for derelict and blown-out buildings, or where you want a clean sight line.",
+"what": "Wall section with an empty window opening in a white painted timber frame."
+},
+"window_2_single_no_glass": {
+"use": "Face onto streets and courtyards in derelict buildings where the glass has all gone.",
+"what": "Wall panel, 4 m wide and 3 m tall, white-painted window frame with no glass."
+},
+"window_double": {
+"use": "Domestic and office exteriors; the glass is emissive, so back it with an exterior light.",
+"what": "Wall module with a glazed double window in a wooden frame, 4.1 m wide."
+},
+"window_hr": {
+"use": "Punch light and sightlines into modular exterior walls; good vantage points.",
+"what": "Concrete wall section with a window opening, 4 by 3 m, two variants."
+},
+"window_hs": {
+"use": "Use on abandoned and barricaded buildings where light should leak through the planks.",
+"what": "Concrete wall bay with a boarded-up window, 4 m by 3 m."
+},
+"window_metal_bars_double": {
+"use": "Fit over ground floor windows in shops, cells and basements to block entry.",
+"what": "Metal window bars, a 2.24 by 1.6 m grid of welded bars, no frame."
+},
+"window_metal_bars_single": {
+"use": "Fit into window openings on cells, basements and ground-floor shopfronts.",
+"what": "Metal window bars, 1.12 m wide and 1.6 m tall, plain welded grid."
+},
+"window_rg": {
+"use": "Grey render facades on the 4 m grid; the boarding suits abandoned street frontages.",
+"what": "Rendered concrete wall module with a boarded metal window, 4 m wide."
+},
+"window_rtx": {
+"use": "Same window grid, but the 4 m span runs on the other axis, so rotate on placement.",
+"what": "Wall section with a window, 4 m span and 3 m tall, metal and timber trim."
+},
+"window_single": {
+"use": "General-purpose window bay for interiors and exteriors; two finishes for mixed builds.",
+"what": "Wall bay with a single window, 4.09 by 3 m, two frame and wall finishes."
+},
+"window_single_frame_only": {
+"use": "Use in stripped or unfinished interiors; pick the variant matching the wall run.",
+"what": "Wall section with an empty window opening in a bare wood frame, two finishes."
+},
+"window_single_no_glass": {
+"use": "Chain along modular wall runs to open interiors onto exteriors without adding glass.",
+"what": "Wall panel, 4 m wide and 3 m tall, glassless window in a wooden frame."
+},
+"windows_hr": {
+"use": "Industrial facades; tile along a factory wall and alternate the two to break repetition.",
+"what": "Brick wall module with metal-framed windows, 4 m wide, two variants."
+},
+"windows_hs": {
+"use": "Terrace and factory facades where a single window opening looks too mean.",
+"what": "Brick wall section with a run of windows, 4 m wide and 3 m tall."
+},
+"windows_rg": {
+"use": "Use on warehouse and factory facades where a long band of glazing suits the elevation.",
+"what": "Concrete wall bay with a run of windows, 4 m by 3 m, some boarded."
+},
+"wires_holder_hr_large": {
+"use": "Space along walls beneath cable runs so the wiring reads as supported.",
+"what": "Steel cable bracket, a 40 cm standoff arm for wall wiring, no cable."
+},
+"wires_holder_hr_small": {
+"use": "Space along walls and beams to carry cable and pipe runs; repeat at regular intervals.",
+"what": "Small steel cable bracket, 20 cm tall, a plain bent-metal clip."
+},
+"wires_hr": {
+"use": "String along tunnel and plant room ceilings; chain several for a continuous cable trunk.",
+"what": "Sagging cable run spanning four metres, nine routing variants."
+},
+"wood_pallet": {
+"use": "Stack in warehouses and yards, lean against walls, or use as a base under crates.",
+"what": "Wooden pallet, 1.4 m square and 20 cm thick, two timber finishes."
+},
+"wooden_barrel": {
+"use": "Stack in cellars, taverns and dock sets, or use singly as waist-high cover.",
+"what": "Wooden barrel with metal hoops, 1.1 m tall and 79 cm across."
+},
+"wooden_board": {
+"use": "Nail across broken windows and doorways, or lay as decking and ramp planks.",
+"what": "Single flat timber board, 1.9 by 1 m, one quad with a plank texture."
+},
+"wooden_crate": {
+"use": "Stack in warehouses, cellars and docks, or place single as chest-high breakable cover.",
+"what": "Wooden crate, roughly 1 m cube, slatted planks with nailed corners."
+},
+"wooden_crate_a": {
+"use": "Warehouses, docks and storerooms; stack for waist-high cover or scatter them singly.",
+"what": "Closed wooden crate, 95 cm long, planked sides, knee high."
+},
+"wooden_crate_b": {
+"use": "Stack for knee to waist-high cover in stores and docks; single ones dress corners.",
+"what": "Wooden crate, 95 cm long, closed lid, planked sides."
+},
+"wooden_crate_c": {
+"use": "Standard stackable filler for warehouses and holds; makes chest-high cover in stacks.",
+"what": "Wooden crate, roughly 90 cm across, planked with visible grain."
+},
+"wooden_crate_hx": {
+"use": "Stack in warehouses and docks as full-height cover, or group as a cargo block.",
+"what": "Large wooden crate, near 2 m cube, metal strapping and a tarpaulin over the top."
+},
+"wooden_plank": {
+"use": "Nail across boarded windows and doors, or scatter as timber debris around collapses.",
+"what": "Single wooden plank, 86 cm long and 3 cm thick, weathered board."
+},
+"wrench_mx": {
+"use": "Workbenches, engine bays and toolboxes; also reads as a melee pickup.",
+"what": "Steel spanner, 60 cm long, two head variants."
+}
+}

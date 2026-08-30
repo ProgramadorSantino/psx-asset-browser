@@ -1,0 +1,9 @@
+# generated output - none of this belongs in the repo
+thumbs/
+index/
+describe/
+relations.json
+*.html
+!docs/*.html
+__pycache__/
+*.pyc
