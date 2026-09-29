@@ -152,8 +152,23 @@ glbs.sort()
 if LIMIT:
     glbs = glbs[:LIMIT]
 
+
+def key_of(path):
+    return os.path.relpath(path, SRC).replace("\\", "/")[:-4].replace("/", "__")
+
+
+def save(rows):
+    """Write the manifest via a temp file, so a crash mid-write cannot corrupt it."""
+    tmp = MANIFEST + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as fh:
+        json.dump(rows, fh)
+    os.replace(tmp, MANIFEST)
+
+
 # incremental: keep thumbnails that already exist so merging a second bundle
-# only pays for the models it actually added
+# only pays for the models it actually added. A thumbnail only counts as done if
+# the manifest has its numbers too - a run killed before saving leaves PNGs with
+# no triangle counts, and those have to be rendered again.
 prev = {}
 if os.path.exists(MANIFEST) and "--force" not in argv:
     try:
@@ -161,17 +176,16 @@ if os.path.exists(MANIFEST) and "--force" not in argv:
     except Exception:
         prev = {}
     todo = [g for g in glbs
-            if not os.path.exists(os.path.join(
-                OUT, os.path.relpath(g, SRC).replace("\\", "/")[:-4].replace("/", "__") + ".png"))]
+            if key_of(g) not in prev or not os.path.exists(os.path.join(OUT, key_of(g) + ".png"))]
     print(f"[thumbs] {len(glbs)-len(todo)} already rendered, {len(todo)} new", flush=True)
     glbs = todo
 
 print(f"[thumbs] {len(glbs)} models -> {OUT} @ {SIZE}px", flush=True)
-out, t0, fails = [], time.time(), 0
+rows, t0, fails = dict(prev), time.time(), 0
 
 for i, path in enumerate(glbs, 1):
     rel = os.path.relpath(path, SRC).replace("\\", "/")
-    key = rel[:-4].replace("/", "__")
+    key = key_of(path)
     dest = os.path.join(OUT, key + ".png")
     try:
         wipe()
@@ -185,18 +199,16 @@ for i, path in enumerate(glbs, 1):
         tris, verts, mats, tex = stats(objs)
         bpy.context.scene.render.filepath = dest
         bpy.ops.render.render(write_still=True)
-        out.append(dict(key=key, rel=rel, tris=tris, verts=verts,
-                        materials=mats, textures=tex, **geo))
+        rows[key] = dict(key=key, rel=rel, tris=tris, verts=verts,
+                         materials=mats, textures=tex, **geo)
     except Exception as e:
         fails += 1
         print(f"  !! {rel}: {type(e).__name__}: {e}", flush=True)
     if i % 25 == 0 or i == len(glbs):
+        save(list(rows.values()))            # progress survives a crash or Ctrl+C
         el = time.time() - t0
         print(f"  [{i}/{len(glbs)}] {el:.0f}s  {el/i:.2f}s/model  "
               f"eta {(len(glbs)-i)*el/i/60:.1f}min  fails={fails}", flush=True)
 
-done = {r["key"] for r in out}
-out += [v for k, v in prev.items() if k not in done]
-with open(MANIFEST, "w", encoding="utf-8") as fh:
-    json.dump(out, fh)
-print(f"[thumbs] done: {len(out)} rendered, {fails} failed, {time.time()-t0:.0f}s", flush=True)
+save(list(rows.values()))
+print(f"[thumbs] done: {len(rows)} rendered, {fails} failed, {time.time()-t0:.0f}s", flush=True)
