@@ -9,8 +9,8 @@ Thumbnails are embedded as base64 WebP so the file works offline by double-click
     python build_browser.py <library dir> <thumbs dir> -o ASSET_BROWSER.html
 """
 import argparse, base64, io, json, os, re, struct
-from collections import defaultdict
 from PIL import Image
+from packs import categorise, model_key
 
 MODEL_TH, TEX_TH = 232, 128
 
@@ -58,31 +58,20 @@ def wav_seconds(path):
         return None
 
 
-# folders that name an export format rather than a kind of asset
-NOISE = {"Models", "Meshes", "Textures", "Audio", "other-formats", ".other-formats",
-         "GLB", "GLB (recommended)", "FBX", "OBJ", "DAE", "OGG", "WAV",
-         "BLEND (source)", "BLEND", "Sprites"}
-
-
-# A bundle of many small sub-packs is listed as ONE pack whose categories are the
-# sub-packs. Otherwise 17 folders of 5 assets each swamp the pack filter.
-GROUPED = {"Mystery Bundle"}
-
-
-def categorise(rel):
-    """Pull a human category out of the pack's own folder layout."""
-    parts = rel.split("/")
-    pack = parts[0]
-    if pack in GROUPED and len(parts) > 2:
-        return pack, parts[1]
-    after = [p for p in parts[1:-1] if p not in NOISE]
-    if after:
-        return pack, after[-1]
-    # the big packs sort by an internal folder; the Mystery mini-packs are each a
-    # single subject, so the pack name is the most useful category they have
-    fallback = {"PSX Nature": "Nature", "PSX Tech": "Tech & Industrial",
-                "PSX Bunkers": "Bunker & Military"}
-    return pack, fallback.get(pack, pack)
+def pick_fbx(glb_rel, candidates):
+    """The FBX exported beside a GLB. Names repeat across packs, so the match is by
+    path: same pack, then the most folders in common (Models/GLB/x.glb pairs with
+    Models/FBX/x.fbx). A same-named FBX in another pack is never a match."""
+    parts = glb_rel.split("/")
+    best, score = "", 0
+    for c in candidates:
+        cp = c.split("/")
+        if cp[0] != parts[0]:
+            continue
+        common = sum(1 for x, y in zip(parts[:-1], cp[:-1]) if x == y)
+        if common + 1 > score:
+            best, score = c, common + 1
+    return best
 
 
 def main():
@@ -124,34 +113,37 @@ def main():
             elif e in (".ogg", ".wav"):
                 auds.append(rel)
 
-    models = []
+    models, keys = [], []
     for rel, stem in sorted(glbs.items()):
-        key = rel[:-4].replace("/", "__")
+        key = model_key(rel)
         m = man.get(key)
         th = os.path.join(a.thumbs, key + ".png")
         if not os.path.exists(th):
             continue
         pack, cat = categorise(rel)
-        fbx = fbxs.get(stem.lower(), [])
         dim = m["dim"] if m else [0, 0, 0]
-        fam = fam_of.get(key, "")
+        keys.append(key)
         models.append(dict(
-            n=stem, p=pack, c=cat, g=rel, k=key,
-            f=fbx[0] if fbx else "",
+            n=stem, p=pack, c=cat, g=rel,
+            f=pick_fbx(rel, fbxs.get(stem.lower(), [])),
             t=m["tris"] if m else 0, v=m["verts"] if m else 0,
             d=[round(x, 2) for x in dim],
             tx=[re.sub(r"\.\d{3}$", "", x) for x in (m["textures"] if m else [])][:6],
-            fm=fam,
-            va=[x for x in fams.get(fam, []) if x != key][:8],
-            gw=goes.get(key, [])[:6],
-            sm=simil.get(key, [])[:6],
+            fm=fam_of.get(key, ""),
             i=b64(Image.open(th), MODEL_TH, 80)))
+    # related models are referenced by their index in the page, not by key: an
+    # int per link instead of a 40-character path, and no lookup table to build
+    idx = {k: i for i, k in enumerate(keys)}
+    ids = lambda ks, n: [idx[k] for k in ks if k in idx][:n]
+    for key, m in zip(keys, models):
+        m["va"] = ids([x for x in fams.get(m["fm"], []) if x != key], 8)
+        m["gw"] = ids(goes.get(key, []), 6)
+        m["sm"] = ids(simil.get(key, []), 6)
     print(f"models: {len(models):,}")
 
     tex = []
     for rel in sorted(texs):
         pack = rel.split("/")[0]
-        parts = rel.split("/")
         kind = "Normal" if "Normal" in rel else ("Color" if "Color" in rel else "Texture")
         try:
             im = Image.open(os.path.join(LIB, rel))
@@ -165,13 +157,7 @@ def main():
 
     aud = []
     for rel in sorted(auds):
-        parts = rel.split("/")
-        pack = parts[0]
-        if pack in GROUPED and len(parts) > 2:
-            cat = parts[1]
-        else:
-            mid = [x for x in parts[1:-1] if x not in NOISE]
-            cat = mid[-1] if mid else pack
+        pack, cat = categorise(rel)
         p = os.path.join(LIB, rel)
         secs = ogg_seconds(p) if rel.lower().endswith(".ogg") else wav_seconds(p)
         aud.append(dict(n=os.path.splitext(os.path.basename(rel))[0], p=pack, c=cat,
@@ -187,7 +173,8 @@ def main():
     dmap = {k: v for k, v in desc.items() if k in used}
     print(f"descriptions: {len(dmap):,} families described "
           f"({sum(1 for m in models if m['fm'] in dmap):,}/{len(models):,} models covered)")
-    data = json.dumps(dict(m=models, t=tex, a=aud, d=dmap), separators=(",", ":"))
+    # "</" would end the <script> the data sits in, whatever string it turned up in
+    data = json.dumps(dict(m=models, t=tex, a=aud, d=dmap), separators=(",", ":")).replace("</", "<\\/")
     html = TEMPLATE.replace("/*__DATA__*/", data)
     with open(a.out, "w", encoding="utf-8") as fh:
         fh.write(html)
@@ -324,7 +311,8 @@ h2 span{color:var(--dim);font-size:10px;letter-spacing:.08em}
   display:flex;align-items:center;justify-content:center;padding:18px;
   border-right:1px solid var(--steel)}
 .pimg img{max-width:100%;image-rendering:auto}
-.pinfo{padding:16px 20px 20px}
+/* min-width:0 - a long strip of related models must scroll, not widen the panel */
+.pinfo{padding:16px 20px 20px;min-width:0}
 table{border-collapse:collapse;width:100%;font-size:12px}
 th,td{text-align:left;padding:4px 10px 4px 0;vertical-align:top}
 th{color:var(--dim);font-weight:400;width:104px;font-size:11px;letter-spacing:.07em;
@@ -405,8 +393,17 @@ const fmt = n => n.toLocaleString();
 const kb = b => b > 1048576 ? (b/1048576).toFixed(1)+' MB' : Math.round(b/1024)+' KB';
 const dur = s => s ? Math.floor(s/60)+':'+String(Math.round(s%60)).padStart(2,'0') : '--:--';
 
-let kind='m', q='', pack='', cat='', tlo=0, thi=Infinity, bins=[];
+let kind='m', q='', pack='', cat='', blo=0, bhi=Infinity;
 const rows = () => D[kind];
+// every row knows its own index, which is also how models refer to each other
+['m','t','a'].forEach(k => D[k].forEach((r,i) => { r._i = i; }));
+
+// Triangle-budget bins, on a log scale. Each model's bin is fixed, and the budget
+// is a range of bins, so the lit bars are exactly the models the grid shows.
+const NB = 34, TMAX = Math.max(1, ...D.m.map(r=>r.t));
+const lg = v => Math.log10(1+v)/Math.log10(1+TMAX);
+const edge = b => Math.round(Math.pow(10, b/NB*Math.log10(1+TMAX))-1);
+D.m.forEach(r => { r._b = Math.min(NB-1, Math.floor(lg(r.t)*NB)); });
 
 // triangle histogram is computed on everything except the budget filter itself,
 // so dragging it never collapses the chart you are dragging on
@@ -422,46 +419,41 @@ function match(r){
   return q.split(/\s+/).every(w => h.includes(w));
 }
 function visible(){
-  return preBudget().filter(r => kind!=='m' || (r.t>=tlo && r.t<=thi));
+  return preBudget().filter(inBudget);
 }
 
 function buildHist(){
   if(kind!=='m'){ $('#budget').hidden=true; return; }
   $('#budget').hidden=false;
-  const set = preBudget(), N=34;
-  const max = Math.max(1, ...D.m.map(r=>r.t));
-  const lg = v => Math.log10(1+v)/Math.log10(1+max);
-  bins = new Array(N).fill(0);
-  set.forEach(r => { bins[Math.min(N-1, Math.floor(lg(r.t)*N))]++; });
+  const bins = new Array(NB).fill(0);
+  preBudget().forEach(r => { bins[r._b]++; });
   const peak = Math.max(1, ...bins);
-  const loB = Math.floor(lg(tlo)*N), hiB = thi===Infinity ? N : Math.floor(lg(thi)*N);
   $('#hist').innerHTML = bins.map((v,i) =>
-    `<div class="bar${i>=loB&&i<=hiB?' in':''}" style="height:${Math.max(2,v/peak*100)}%" `+
-    `title="${fmt(Math.round(Math.pow(10,i/N*Math.log10(1+max))-1))} tris — ${v} models"></div>`).join('');
-  $('#lo').textContent = fmt(tlo);
-  $('#hi2').textContent = thi===Infinity ? fmt(max) : fmt(thi);
+    `<div class="bar${i>=blo&&i<=bhi?' in':''}" style="height:${Math.max(2,v/peak*100)}%" `+
+    `title="${fmt(edge(i))}–${fmt(edge(i+1))} tris — ${v} models"></div>`).join('');
+  $('#lo').textContent = fmt(edge(blo));
+  $('#hi2').textContent = fmt(bhi>=NB-1 ? TMAX : edge(bhi+1));
 }
 // drag across the histogram to set the budget window
 (function(){
   const h=$('#hist'); let drag=null;
   const binAt = e => {
     const r=h.getBoundingClientRect();
-    return Math.max(0, Math.min(33, Math.floor((e.clientX-r.left)/r.width*34)));
+    return Math.max(0, Math.min(NB-1, Math.floor((e.clientX-r.left)/r.width*NB)));
   };
-  const val = b => Math.round(Math.pow(10, b/34*Math.log10(1+Math.max(1,...D.m.map(r=>r.t))))-1);
   h.addEventListener('pointerdown', e=>{ drag=binAt(e); h.setPointerCapture(e.pointerId); });
   h.addEventListener('pointermove', e=>{
     if(drag===null) return;
-    const b=binAt(e); tlo=val(Math.min(drag,b)); thi=val(Math.max(drag,b)+1); render();
+    const b=binAt(e); blo=Math.min(drag,b); bhi=Math.max(drag,b); render();
   });
   h.addEventListener('pointerup', ()=>drag=null);
-  $('#rst').onclick = ()=>{ tlo=0; thi=Infinity; render(); };
+  $('#rst').onclick = ()=>{ blo=0; bhi=Infinity; render(); };
 })();
 
 // A facet count must answer "how many would I get if I clicked this", so every
 // other active filter applies - including the triangle budget. Leaving the
 // budget out made the sidebar disagree with the grid.
-function inBudget(r){ return kind!=='m' || (r.t>=tlo && r.t<=thi); }
+function inBudget(r){ return kind!=='m' || (r._b>=blo && r._b<=bhi); }
 function facets(){
   const cp = {}, cc = {};
   let pAll = 0, cAll = 0;
@@ -478,13 +470,21 @@ function facets(){
     Object.entries(cc).sort((a,b)=>b[1]-a[1]).map(([k,v])=>opt(k,v,cat===k,'c')).join('');
 }
 
+// Match every search word against the plain name in one pass, then escape the
+// pieces. Wrapping one word at a time let the next word match inside the markup
+// the last one added: "pipe s" found the s in <span class="hi">.
 function hl(s){
-  if(!q) return esc(s);
-  let out=esc(s);
-  q.split(/\s+/).filter(Boolean).forEach(w=>{
-    out = out.replace(new RegExp('('+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig'),'<span class="hi">$1</span>');
-  });
-  return out;
+  s = String(s);
+  const words = q.split(/\s+/).filter(Boolean);
+  if(!words.length) return esc(s);
+  const re = new RegExp(words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'))
+                             .sort((a,b) => b.length-a.length).join('|'), 'ig');
+  let out = '', at = 0;
+  for(const m of s.matchAll(re)){
+    out += esc(s.slice(at, m.index)) + '<span class="hi">' + esc(m[0]) + '</span>';
+    at = m.index + m[0].length;
+  }
+  return out + esc(s.slice(at));
 }
 
 function render(){
@@ -511,7 +511,7 @@ function render(){
 }
 
 function card(r){
-  const i = rows().indexOf(r);
+  const i = r._i;
   if(kind==='t') return `<div class="card" tabindex="0" data-i="${i}">`+
     `<div class="th"><img loading="lazy" src="data:image/webp;base64,${r.i}" alt=""></div>`+
     `<div class="meta"><div class="nm">${hl(r.n)}</div>`+
@@ -524,7 +524,7 @@ function card(r){
 }
 
 function audRow(r){
-  const i = rows().indexOf(r);
+  const i = r._i;
   return `<div class="trow" data-i="${i}">`+
     `<button class="play" data-play="${i}" aria-label="Play ${esc(r.n)}">&#9654;</button>`+
     `<div class="g"><div>${hl(r.n)}</div><div class="wave"><i></i></div></div>`+
@@ -568,10 +568,10 @@ function open(r){
       ['Variants', r.va, 'the same thing in another flavour'],
       ['Goes with', r.gw, 'shares textures, so built for the same scene'],
       ['Looks like', r.sm, 'similar shape and shading'],
-    ].filter(x => x[1] && x[1].length).map(([t, ks, why]) => `
-      <div class="rel"><h4>${t} <span style="color:var(--hazard)">${ks.length}</span>
+    ].filter(x => x[1] && x[1].length).map(([t, ids, why]) => `
+      <div class="rel"><h4>${t} <span style="color:var(--hazard)">${ids.length}</span>
         <em>${why}</em></h4>
-        <div class="strip">${ks.map(k => relCard(k)).filter(Boolean).join('')}</div></div>`).join('')
+        <div class="strip">${ids.map(relCard).join('')}</div></div>`).join('')
     : '';
   $('#pan').innerHTML = `
     <div class="phead"><h3>${esc(r.n)}</h3><span class="stat">${esc(r.p)}</span>
@@ -593,13 +593,10 @@ function open(r){
 }
 const close = () => $('#ov').classList.remove('on');
 
-// models addressed by their render key, so a related item can be opened directly
-const BY_KEY = {};
-D.m.forEach(m => { BY_KEY[m.k] = m; });
-function relCard(k){
-  const m = BY_KEY[k];
-  if(!m) return '';
-  return `<div class="rc" tabindex="0" data-go="${esc(k)}" title="${esc(m.n)} - ${fmt(m.t)} tri">
+// related models are stored as indexes into D.m
+function relCard(i){
+  const m = D.m[i];
+  return `<div class="rc" tabindex="0" data-go="${i}" title="${esc(m.n)} - ${fmt(m.t)} tri">
     <img loading="lazy" src="data:image/webp;base64,${m.i}" alt="">
     <span>${esc(m.n)}</span></div>`;
 }
@@ -614,7 +611,7 @@ $('#main').addEventListener('click', e=>{
 $('#ov').addEventListener('keydown', e=>{
   const go = e.target.closest('[data-go]');
   if(go && (e.key==='Enter'||e.key===' ')){ e.preventDefault();
-    const m = BY_KEY[go.dataset.go]; if(m){ kind='m'; open(m); } }
+    kind='m'; open(D.m[+go.dataset.go]); }
 });
 $('#main').addEventListener('keydown', e=>{
   const c = e.target.closest('[data-i]');
@@ -622,7 +619,7 @@ $('#main').addEventListener('keydown', e=>{
 });
 $('#side').addEventListener('click', e=>{
   const t = e.target.closest('.tab');
-  if(t){ kind=t.dataset.k; pack=cat=''; tlo=0; thi=Infinity;
+  if(t){ kind=t.dataset.k; pack=cat=''; blo=0; bhi=Infinity;
     document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===t));
     $('#main').scrollTop=0; render(); return; }
   const o = e.target.closest('.opt');
@@ -630,7 +627,7 @@ $('#side').addEventListener('click', e=>{
 });
 $('#ov').addEventListener('click', e=>{
   const go = e.target.closest('[data-go]');
-  if(go){ const m = BY_KEY[go.dataset.go]; if(m){ kind='m'; open(m); } return; }
+  if(go){ kind='m'; open(D.m[+go.dataset.go]); return; }
   if(e.target.id==='ov') close();
   const b = e.target.closest('[data-copy]');
   if(b){ navigator.clipboard.writeText(b.dataset.copy).then(()=>{
